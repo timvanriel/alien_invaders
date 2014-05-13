@@ -1,14 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Dummy Project</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Alien Invaders</title>
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'></script>
+  <script src='js/engine.js'></script>
+  <script src='js/game.js'></script>
+  <script src='js/level.js'></script>
+
+  <style>
+      #gameboard { background-color: #B9E6FF; }
+      #game-wrapper { margin:0 auto; width: 800px; }
+  </style>
 </head>
-
 <body>
-
-	<h1> This is a webpage </h1>
-
-
+  <div id='game-wrapper'>
+    <canvas id='gameboard' width='1000' height='1000'></canvas>
+  </div>
 </body>
 </html>
