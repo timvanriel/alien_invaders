@@ -7,7 +7,7 @@ var AlienFlock = function AlienFlock() {
   this.dx = 10; this.dy = 0;
   this.hit = 1; this.las100tHit = 0;
     // This is how quickly the aliens can move
-  this.speed = 10;
+  this.speed = 30;
 
   this.draw = function() {};
 
@@ -88,7 +88,7 @@ Alien.prototype.step = function(dt) {
 // This is how often the enemy can shoot
 
 Alien.prototype.fireSometimes = function() {
-      if(Math.random()*100 < 20) {
+      if(Math.random()*100 < 0) {
         this.board.addSprite('missile',this.x + this.w/2 - Sprites.map.missile.w/2,
                                       this.y + this.h, 
 									  
