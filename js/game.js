@@ -77,7 +77,10 @@ Alien.prototype.step = function(dt) {
     }
     this.x += this.mx;
     this.mx = 0;
-    this.frame = (this.frame+1) % 2;
+	
+	// This (% 4) is a modulus for the frames.
+	
+    this.frame = (this.frame+1) % 4;
     if(this.x > Game.width - Sprites.map.alien1.w * 2) this.flock.hit = -1;
     if(this.x < Sprites.map.alien1.w) this.flock.hit = 1;
   }

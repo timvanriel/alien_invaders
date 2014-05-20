@@ -34,8 +34,8 @@
 // These are the coordinates of the characters on the spritesheet
 
 var spriteData = {
-    'alien1': { sx: 0,  sy: 0,  w: 60, h: 60, cls: Alien, frames: 2 },
-    'alien2': { sx: 0,  sy: 181, w: 60, h: 60, cls: Alien, frames: 2 },
+    'alien1': { sx: 0,  sy: 0,  w: 60, h: 60, cls: Alien, frames: 4 },
+    'alien2': { sx: 0,  sy: 181, w: 60, h: 60, cls: Alien, frames: 4 },
     'player': { sx: 0,  sy: 60, w: 48, h: 86, cls: Player },
     'missile': { sx: 0,  sy: 147, w: 12,  h: 34, cls: Missile },
 	
