@@ -126,11 +126,13 @@ Player.prototype.step = function(dt) {
     
     if(Game.keys['up']) { 
 	
+	// The (-=) defines how you move upwards
 	
 	this.y -= 200 * dt;
 	
 	
 	 }
+	 
 	 
 	 
     if(Game.keys['down']) { this.y += 200 * dt; }
@@ -158,6 +160,12 @@ Player.prototype.step = function(dt) {
   }
   return true;
 }
+
+
+
+
+
+
 
 
 var Missile = function Missile(opts) {
