@@ -128,8 +128,11 @@ var GameBoard = function GameBoard(level_number) {
   this.loadLevel = function(level) {
     this.objects = [];
     this.player = this.addSprite('player', // Sprite
+	
+	// This is where the player sprite starts initially
+						
                                  Game.width/2, // X
-                                 Game.height - Sprites.map['player'].h - 10); // Y
+                                 Game.height - Sprites.map['player'].h - 500); // Y
 
     var flock = this.add(new AlienFlock());
     for(var y=0,rows=level.length;y<rows;y++) {
