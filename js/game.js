@@ -152,7 +152,7 @@ Player.prototype.step = function(dt) {
 						  
 	// The dy: -100 (standard) below states how the missiles go up instead of down and with what force.
 						  
-                          { dy: -200, player: true });
+                          { dy: -400, player: true });
     this.board.missiles++;
     this.reloading = 10 ;
   }
@@ -172,7 +172,11 @@ Missile.prototype.draw = function(canvas) {
 
 
 Missile.prototype.step = function(dt) {
+   
+   // This line states that the missiles travel upwards. Removing it places the missiles without travel.
+   
    this.y += this.dy * dt;
+   
 
    var enemy = this.board.collide(this);
    if(enemy) { 
@@ -181,6 +185,8 @@ Missile.prototype.step = function(dt) {
    }
    return (this.y < 0 || this.y > Game.height) ? false : true;
 }
+
+
 
 Missile.prototype.die = function() {
   if(this.player) this.board.missiles--;
