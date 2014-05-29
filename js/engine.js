@@ -113,6 +113,9 @@ var GameBoard = function GameBoard(level_number) {
     this.iterate(function() { this.draw(canvas); });
   };
 
+
+// Collision Detection
+
   this.collision = function(o1,o2) {
     return !((o1.y+o1.h-1<o2.y) || (o1.y>o2.y+o2.h-1) ||
              (o1.x+o1.w-1<o2.x) || (o1.x>o2.x+o2.w-1));
@@ -124,6 +127,9 @@ var GameBoard = function GameBoard(level_number) {
        return board.collision(obj,this) ? this : false;
     });
   };
+  
+  
+// End collision Detection
 
   this.loadLevel = function(level) {
     this.objects = [];

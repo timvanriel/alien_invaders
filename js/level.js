@@ -43,9 +43,10 @@ var spriteData = {
   }
 
   function startGame() {
-    var screen = new GameScreen("Shoot the rockz","Press space to start",
+    var screen = new GameScreen("Let's Play","Press space to start",
                                  function() {
                                      Game.loadBoard(new GameBoard(1));
+									 GameAudio.play('music');
                                  });
     Game.loadBoard(screen);
     Game.loop();
@@ -70,7 +71,7 @@ var spriteData = {
   
 
   $(function() {
-    GameAudio.load({ 'fire' : 'media/laser.ogg', 'die' : 'media/explosion.ogg' }, 
+    GameAudio.load({ 'fire' : 'media/fire.ogg', 'die' : 'media/explosion.ogg', 'move' : 'media/move.ogg', 'music' : 'media/music.ogg'}, 
                    function() { 
                        Game.initialize("#gameboard", levelData, spriteData,
                                       { "start": startGame,

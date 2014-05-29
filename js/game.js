@@ -129,8 +129,19 @@ Player.prototype.die = function() {
 // The 200 below is how fast you can move the player
 
 Player.prototype.step = function(dt) {
-  if(Game.keys['left']) { this.x -= 200 * dt; }
-  if(Game.keys['right']) { this.x += 200 * dt; }
+  if(Game.keys['left']) { 
+  
+  this.x -= 200 * dt;
+  
+  
+  }
+  
+  if(Game.keys['right']) { 
+  
+  this.x += 200 * dt;
+ 
+  
+  }
     
 // This is defining how you can now move up and down.    
     
@@ -145,9 +156,17 @@ Player.prototype.step = function(dt) {
 	 
 	 
 	 
-    if(Game.keys['down']) { this.y += 200 * dt; }
+    if(Game.keys['down']) { 
+	
+	this.y += 200 * dt; 
+	
+	
+	}
 
     
+	
+	
+	
     
   if(this.x < 0) this.x = 0;
   if(this.x > Game.width-this.w) this.x = Game.width-this.w;
@@ -174,7 +193,7 @@ Player.prototype.step = function(dt) {
 
 
 
-
+ 
 
 
 
@@ -191,10 +210,11 @@ Missile.prototype.draw = function(canvas) {
 
 Missile.prototype.step = function(dt) {
    
-   // This line states that the missiles travel upwards. Removing it places the missiles without travel.
+   // This line below states that the missiles travel upwards. Removing it places the missiles without travel.
    
    this.y += this.dy * dt;
    
+  //  ------------------------
 
    var enemy = this.board.collide(this);
    if(enemy) { 
@@ -215,84 +235,4 @@ Missile.prototype.die = function() {
 
 
 
-//Start Moving stars Background
 
-
-var Starfield = function(speed,opacity,numStars,clear) { 
-
-// Set up the offscreen canvas 
-
-var stars = document.createElement("canvas"); 
-stars.width = Game.width; 
-stars.height = Game.height; 
-
-var starCtx = stars.getContext("2d"); var offset = 0; 
-
-// If the clear option is set, 
-// make the background black instead of transparent 
-if(clear) { 
-
-starCtx.fillStyle = "#000"; 
-starCtx.fillRect(0,0,stars.width,stars.height); } 
-
-// Now draw a bunch of random 2 pixel 
-
-// rectangles onto the offscreen canvas 
-
-starCtx.fillStyle = "#FFF"; 
-starCtx.globalAlpha = opacity; 
-for(var i=0;i<numStars;i++) { 
-starCtx.fillRect(Math.floor(Math.random()*stars.width), 
-				 Math.floor(Math.random()*stars.height), 
-				 2, 
-				 2); 
-
-} 
-
-// This method is called every frame 
-// to draw the starfield onto the canvas 
-
-this.draw = function(ctx) { 
-
-var intOffset = Math.floor(offset); 
-var remaining = stars.height - intOffset; 
-
-// Draw the top half of the starfield 
-
-if(intOffset > 0) { 
-
-ctx.drawImage(stars, 
-0, remaining, 
-stars.width, intOffset, 
-0, 0, 
-stars.width, intOffset); 
-
-
-} 
-
-// Draw the bottom hald of the starfield
-
-if (remaining > 0) {
-	
-	ctx.drawImage (stars, 0, 0, 
-	stars.width, remaining, 
-	0, intOffset, 
-	stars.width, remaining); 
-	}
-}
-
-// This method is called to update 
-
-// the starfield 
-
-this.step = function(dt) { 
-offset += dt * speed; 
-offset = offset % stars.height;
-
-}
-
-}
-
-
-
-// End of moving background
