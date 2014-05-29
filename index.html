@@ -7,74 +7,11 @@
   <script src='js/engine.js'></script>
   <script src='js/game.js'></script>
   <script src='js/level.js'></script>
-
-  <style>
-      #gameboard { z-index: 5; background: none;) }
-      #game-wrapper { z-index: 4;
-	  margin:0 auto; width: 1000px; }
-	  
-	  
-	  @-webkit-keyframes STAR-MOVE {
-	
-	from {
-		background-position: top 
-	}
-	to { 
-		background-position: bottom
-	}
-
-	  }
-#background {
-	background: url(images/background.png) black  repeat 5% 5%;
-	position: absolute;
-	top: 0; left: 0; right: 0; bottom: 0;
-	z-index: 1;
-	
-	-webkit-animation-name: STAR-MOVE;
-	-webkit-animation-duration: 20s;
-	-webkit-animation-timing-function: linear;
-	-webkit-animation-iteration-count: infinite;
-}
-
-#midground {
-	background: url(images/midground.png) repeat 20% 20%;
-	position: absolute;
-	top: 0; left: 0; right: 0; bottom: 0;
-	z-index: 2;
-	
-	-webkit-animation-name: STAR-MOVE;
-	-webkit-animation-duration: 15s;
-	-webkit-animation-timing-function: linear;
-	-webkit-animation-iteration-count: infinite;
-}
-
-#foreground {
-	background: url(images/foreground.png) repeat 35% 35%;
-	position: absolute;
-	top: 0; left: 0; right: 0; bottom: 0;
-	z-index: 3;
-	
-	-webkit-animation-name: STAR-MOVE;
-	-webkit-animation-duration: 10s;
-	-webkit-animation-timing-function: linear;
-	-webkit-animation-iteration-count: infinite;
-	
-	
-}
-
-#page-wrap {
-	width: 1000px;
-	height: 1000px;
-	margin: 0 auto;
-	position: relative;
-	z-index: 300;
-	overflow: hidden;
-}
-
-	  
-	  
-  </style>
+  
+   <link href="Game.css" rel="stylesheet">
 </head>
+
+
 <body>
 
 
