@@ -46,6 +46,9 @@ var spriteData = {
     var screen = new GameScreen("Let's Play","Press space to start",
                                  function() {
                                      Game.loadBoard(new GameBoard(1));
+									 
+									 // This plays the music for the game
+									 
 									 GameAudio.play('music');
                                  });
     Game.loadBoard(screen);
@@ -69,6 +72,7 @@ var spriteData = {
     Game.loadBoard(screen);
   }
   
+  // This loads the sounds used within the game
 
   $(function() {
     GameAudio.load({ 'fire' : 'media/fire.ogg', 'die' : 'media/explosion.ogg', 'move' : 'media/move.ogg', 'music' : 'media/music.ogg'}, 

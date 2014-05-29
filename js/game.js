@@ -3,13 +3,6 @@
 
 
 
-var startGame = function() {
-	
-	Game.setBoard(0,new Starfield(20,0.4,100,true))
-	Game.setBoard(1,new Starfield(50,0.6,100))
-	Game.setBoard(2,new Starfield(100,1.0,50));	
-	
-}
 
 
 var AlienFlock = function AlienFlock() {
@@ -93,6 +86,20 @@ Alien.prototype.step = function(dt) {
     this.frame = (this.frame+1) % 4;
     if(this.x > Game.width - Sprites.map.alien1.w * 2) this.flock.hit = -1;
     if(this.x < Sprites.map.alien1.w) this.flock.hit = 1;
+	
+	
+	// This kills the player when they touch an alien
+	
+	
+	var player = this.board.collide(this);
+   if(player) { 
+     player .die();
+     return false;
+   }
+	
+	
+	//------------------------------------------
+	
   }
   return true;
 }
@@ -204,7 +211,7 @@ var Missile = function Missile(opts) {
 
 Missile.prototype.draw = function(canvas) {
    Sprites.draw(canvas,'missile',this.x,this.y);
-}
+} 
 
 
 
