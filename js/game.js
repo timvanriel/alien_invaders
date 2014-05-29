@@ -179,23 +179,61 @@ Player.prototype.step = function(dt) {
   if(this.x > Game.width-this.w) this.x = Game.width-this.w;
 
   this.reloading--;
+  
+   
     
     // This is how many missiles can be fired before reloading
 
   if(Game.keys['fire'] && this.reloading <= 0 && this.board.missiles < 10) {
     GameAudio.play('fire');
     this.board.addSprite('missile',
-                          this.x + this.w/2 - Sprites.map.missile.w/2,
+                          this.x + this.w/4 - Sprites.map.missile.w/4,
                           this.y-this.h,
 						  
 	// The dy: -100 (standard) below states how the missiles go up instead of down and with what force.
 						  
                           { dy: -400, player: true });
+						  
+						  
     this.board.missiles++;
     this.reloading = 10 ;
+	
+	
+
+	
+  }
+  
+  
+  // This states how the rocket can now shoot from the bottom as well as the top
+  
+  
+  
+  if(Game.keys['fire_right'] && this.reloading <= 0 && this.board.missiles < 10) {
+    GameAudio.play('fire');
+    this.board.addSprite('missile',
+                          this.x + this.w/2 - Sprites.map.missile.w/2,
+                          this.y+100,
+						  
+	// The dy: -100 (standard) below states how the missiles go up instead of down and with what force.
+						  
+                          { dy: +400, player: true });
+						  
+						  
+    this.board.missiles++;
+    this.reloading = 10 ;
+	
+	
+
+	
   }
   return true;
 }
+
+
+
+
+  
+
 
 
 

@@ -138,7 +138,7 @@ var GameBoard = function GameBoard(level_number) {
 	// This is where the player sprite starts initially
 						
                                  Game.width/2, // X
-                                 Game.height - Sprites.map['player'].h - 500); // Y
+                                 Game.height - Sprites.map['player'].h - 600); // Y
 
     var flock = this.add(new AlienFlock());
     for(var y=0,rows=level.length;y<rows;y++) {
