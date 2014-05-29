@@ -43,7 +43,7 @@ var spriteData = {
   }
 
   function startGame() {
-    var screen = new GameScreen("Bird Invaders","Press space to start",
+    var screen = new GameScreen("Shoot the rockz","Press space to start",
                                  function() {
                                      Game.loadBoard(new GameBoard(1));
                                  });
