@@ -51,6 +51,8 @@ var AlienFlock = function AlienFlock() {
 
 
 
+
+
 var Alien = function Alien(opts) {
   this.flock = opts['flock'];
   this.frame = 0;
@@ -66,8 +68,9 @@ Alien.prototype.die = function() {
   
   //Speed of enemies moving across and down after first is hit - Default is 1
   
-  this.flock.speed += 1;
+  //this.flock.speed += 1;
   this.board.remove(this);
+
   
 }
 
@@ -94,7 +97,7 @@ Alien.prototype.step = function(dt) {
 	var player = this.board.collide(this);
    if(player) { 
      player .die();
-     return false;
+     return true;
    }
 	
 	
@@ -184,7 +187,7 @@ Player.prototype.step = function(dt) {
     
     // This is how many missiles can be fired before reloading
 
-  if(Game.keys['fire'] && this.reloading <= 0 && this.board.missiles < 10) {
+  if(Game.keys['fire_up'] && this.reloading <= 0 && this.board.missiles < 10) {
     GameAudio.play('fire');
     this.board.addSprite('missile',
                           this.x + this.w/4 - Sprites.map.missile.w/4,
@@ -208,13 +211,16 @@ Player.prototype.step = function(dt) {
   
   
   
-  if(Game.keys['fire_right'] && this.reloading <= 0 && this.board.missiles < 10) {
+  if(Game.keys['fire_down'] && this.reloading <= 0 && this.board.missiles < 10) {
     GameAudio.play('fire');
     this.board.addSprite('missile',
-                          this.x + this.w/2 - Sprites.map.missile.w/2,
+                          
+						  
+						// This line below states where the sprite loads with respect to the player  
+						  this.x + this.w/4 - Sprites.map.missile.w/4,
                           this.y+100,
 						  
-	// The dy: -100 (standard) below states how the missiles go up instead of down and with what force.
+						  // The dy:400 below states the force is 400 going downwards of the missile
 						  
                           { dy: +400, player: true });
 						  
@@ -222,23 +228,18 @@ Player.prototype.step = function(dt) {
     this.board.missiles++;
     this.reloading = 10 ;
 	
-	
+  }
+  
+  
+  
 
 	
-  }
+  
   return true;
 }
 
 
 
-
-  
-
-
-
-
-
- 
 
 
 

@@ -38,12 +38,15 @@ var spriteData = {
     'alien2': { sx: 0,  sy: 181, w: 60, h: 60, cls: Alien, frames: 4 },
     'player': { sx: 0,  sy: 60, w: 48, h: 86, cls: Player },
     'missile': { sx: 0,  sy: 147, w: 12,  h: 34, cls: Missile },
+	'explosion': { sx: 0,  sy: 241, w: 60,  h: 60, }
+	
+	
 	
 	
   }
 
   function startGame() {
-    var screen = new GameScreen("Let's Play","Press space to start",
+    var screen = new GameScreen("Defeat all invaders!","Press space",
                                  function() {
                                      Game.loadBoard(new GameBoard(1));
 									 
@@ -65,7 +68,7 @@ var spriteData = {
 
 
   function winGame() {
-    var screen = new GameScreen("You Win!","(press space to restart)",
+    var screen = new GameScreen("You Win!","(press space to play again)",
                                  function() {
                                      Game.loadBoard(new GameBoard(1));
                                  });
