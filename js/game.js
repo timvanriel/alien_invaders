@@ -91,7 +91,7 @@ Alien.prototype.step = function(dt) {
 	// This kills the player when the aliens reach the bottom
 	
      if(this.y > 550) { 
-     
+     GameAudio.play('player-die');
 	 Game.callbacks['die']();
     
    }
@@ -140,7 +140,7 @@ Player.prototype.draw = function(canvas) {
 
 
 Player.prototype.die = function() {
-  GameAudio.play('die');
+  GameAudio.play('player-die');
   Game.callbacks['die']();
 }
 
@@ -150,6 +150,7 @@ Player.prototype.die = function() {
 Player.prototype.step = function(dt) {
   if(Game.keys['left']) { 
   
+  GameAudio.play('move');
   this.x -= 200 * dt;
   
   
@@ -157,6 +158,7 @@ Player.prototype.step = function(dt) {
   
   if(Game.keys['right']) { 
   
+  GameAudio.play('move');
   this.x += 200 * dt;
  
   
@@ -168,6 +170,7 @@ Player.prototype.step = function(dt) {
 	
 	// The (-=) defines how you move upwards
 	
+	GameAudio.play('move');
 	this.y -= 200 * dt;
 	
 	
@@ -177,6 +180,7 @@ Player.prototype.step = function(dt) {
 	 
     if(Game.keys['down']) { 
 	
+	GameAudio.play('move');
 	this.y += 200 * dt; 
 	
 	

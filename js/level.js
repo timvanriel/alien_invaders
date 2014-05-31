@@ -51,6 +51,7 @@ var spriteData = {
 
   function startGame() {
     var screen = new GameScreen("Protect the Earth!","Press space",
+	
                                  function() {
 									 
 									 // This loads gameboard number 1 of 2
@@ -85,7 +86,7 @@ var spriteData = {
   // This loads the sounds used within the game
 
   $(function() {
-    GameAudio.load({ 'fire' : 'media/fire.ogg', 'die' : 'media/explosion.ogg', 'move' : 'media/move.ogg', 'music' : 'media/music.ogg'}, 
+    GameAudio.load({ 'fire' : 'media/fire.ogg', 'die' : 'media/explosion.ogg', 'move' : 'media/move.ogg', 'music' : 'media/music.ogg', 'player-die' : 'media/player_death.mp3'}, 
                    function() { 
                        Game.initialize("#gameboard", levelData, spriteData,
                                       { "start": startGame,
