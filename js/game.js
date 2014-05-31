@@ -7,10 +7,10 @@
 
 var AlienFlock = function AlienFlock() {
   this.invulnrable = true;
-  this.dx = 10; this.dy = 0;
+  this.dx = 10; this.dy = 10;
   this.hit = 1; this.las100tHit = 0;
     // This is how quickly the aliens can move
-  this.speed = 30;
+  this.speed = 33;
 
   this.draw = function() {};
 
@@ -77,7 +77,10 @@ Alien.prototype.die = function() {
 Alien.prototype.step = function(dt) {
   this.mx += dt * this.flock.dx;
   this.y += this.flock.dy;
-  if(Math.abs(this.mx) > 10) {
+  
+  // This is time delay between each step the alien takes
+  
+  if(Math.abs(this.mx) > 1) {
     if(this.y == this.flock.max_y[this.x]) {
       this.fireSometimes();
     }
@@ -86,7 +89,7 @@ Alien.prototype.step = function(dt) {
 	
 	// This (% 4) is a modulus for the frames.
 	
-    this.frame = (this.frame+1) % 4;
+    this.frame = (this.frame+1) % 1;
     if(this.x > Game.width - Sprites.map.alien1.w * 2) this.flock.hit = -1;
     if(this.x < Sprites.map.alien1.w) this.flock.hit = 1;
 	
@@ -95,10 +98,12 @@ Alien.prototype.step = function(dt) {
 	
 	
 	var player = this.board.collide(this);
-   if(player) { 
-     player .die();
-     return true;
+    if(player)  { 
+    player .die();
+    return true;
    }
+   
+
 	
 	
 	//------------------------------------------
@@ -111,7 +116,7 @@ Alien.prototype.step = function(dt) {
 // This (*100 < 0) is how often the enemy can shoot
 
 Alien.prototype.fireSometimes = function() {
-      if(Math.random()*100 < 0) {
+      if(Math.random()*100 < 1) {
         this.board.addSprite('missile',this.x + this.w/2 - Sprites.map.missile.w/2,
                                       this.y + this.h, 
 									  
@@ -172,13 +177,15 @@ Player.prototype.step = function(dt) {
 	
 	
 	}
+	
+	
 
-    
-	
-	
-	
+ 
+	// This bounds the player within the game
     
   if(this.x < 0) this.x = 0;
+  if(this.y < 0) this.y = 0;
+  if(this.y > 550) this.y = 550;
   if(this.x > Game.width-this.w) this.x = Game.width-this.w;
 
   this.reloading--;
@@ -251,6 +258,8 @@ var Missile = function Missile(opts) {
 Missile.prototype.draw = function(canvas) {
    Sprites.draw(canvas,'missile',this.x,this.y);
 } 
+
+
 
 
 

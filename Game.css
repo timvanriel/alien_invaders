@@ -1,6 +1,6 @@
- #gameboard { z-index: 5; background: none;) }
+ #gameboard { z-index: 5; background: red;) }
       #game-wrapper { z-index: 4;
-	  margin:0 auto; width: 1000px; }
+	  margin:50px auto 0 auto; width: 1000px; }
 	  
 	  
 	  @-webkit-keyframes STAR-MOVE {
@@ -53,11 +53,22 @@
 
 #page-wrap {
 	width: 1000px;
-	height: 1000px;
+	height: 750px;
 	margin: 0 auto;
 	position: relative;
 	z-index: 300;
 	overflow: hidden;
+}
+
+#earth {
+	
+	background-color: #00F;
+	height: 100px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	z-index: 100;	
+	
 }
 
 	  

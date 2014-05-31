@@ -26,7 +26,10 @@ var Game = new function() {
   this.loop = function() { 
     Game.board.step(30/1000); 
     Game.board.render(Game.canvas);
-    setTimeout(Game.loop,30);
+	
+	// This is how fast the game runs
+	
+    setTimeout(Game.loop,20);
   };
 };
 
@@ -138,7 +141,7 @@ var GameBoard = function GameBoard(level_number) {
 	// This is where the player sprite starts initially
 						
                                  Game.width/2, // X
-                                 Game.height - Sprites.map['player'].h - 600); // Y
+                                 Game.height - Sprites.map['player'].h - 300); // Y
 
     var flock = this.add(new AlienFlock());
     for(var y=0,rows=level.length;y<rows;y++) {
@@ -146,7 +149,10 @@ var GameBoard = function GameBoard(level_number) {
         var alien = Sprites.map['alien' + level[y][x]];
         if(alien) { 
           this.addSprite('alien' + level[y][x], // Which Sprite
-                         (alien.w+10)*x,  // X
+                         
+						 // Gap between the aliens
+						 
+						 (alien.w+10)*x,  // X
                          alien.h*y,       // Y
                          { flock: flock }); // Options
         }
