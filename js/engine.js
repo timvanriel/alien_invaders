@@ -205,7 +205,7 @@ var GameAudio = new function() {
     for (a=0;a<audio_channels.length;a++) {
       thistime = new Date();
       if (audio_channels[a]['finished'] < thistime.getTime()) {	
-        audio_channels[a]['finished'] = thistime.getTime() + this.sounds[s].duration*1000;
+        audio_channels[a]['finished'] = thistime.getTime() + this.sounds[s].duration*500;
         audio_channels[a]['channel'].src = this.sounds[s].src;
         audio_channels[a]['channel'].load();
         audio_channels[a]['channel'].play();

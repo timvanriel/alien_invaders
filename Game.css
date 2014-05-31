@@ -1,6 +1,19 @@
- #gameboard { z-index: 5; background: none;) }
-      #game-wrapper { z-index: 4;
-	  margin:50px auto 0 auto; width: 1000px; }
+ 
+ 
+#gameboard { 
+ 
+ z-index: 5; 
+ background: none; 
+ 
+ }
+ 
+#game-wrapper { 
+
+z-index: 4;
+margin: 50px auto 0 auto; 
+width: 1000px; 
+
+}
 	  
 	  
 	  @-webkit-keyframes STAR-MOVE {
@@ -52,9 +65,14 @@
 }
 
 #page-wrap {
+	
+	background-image: url(images/mars.png);
+	background-size:1000px 100px;
+	background-repeat:no-repeat;
+	background-position: top;
 	width: 1000px;
 	height: 750px;
-	margin: 0 auto;
+	margin: -10px auto 0 auto;
 	position: relative;
 	z-index: 300;
 	overflow: hidden;
@@ -72,5 +90,7 @@
 	z-index: 100;	
 	
 }
+
+
 
 	  
