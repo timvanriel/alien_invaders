@@ -88,7 +88,7 @@ Alien.prototype.step = function(dt) {
     if(this.x > Game.width - Sprites.map.alien1.w * 2) this.flock.hit = -1;
     if(this.x < Sprites.map.alien1.w) this.flock.hit = 1;
 	
-	
+	// This kills the player when the aliens reach the bottom
 	
      if(this.y > 550) { 
      
@@ -201,8 +201,8 @@ Player.prototype.step = function(dt) {
   if(Game.keys['fire_up'] && this.reloading <= 0 && this.board.missiles < 10) {
     GameAudio.play('fire');
     this.board.addSprite('missile',
-                          this.x + this.w/4 - Sprites.map.missile.w/4,
-                          this.y-this.h,
+                          this.x + 20,
+                          this.y - 20,
 						  
 	// The dy: -100 (standard) below states how the missiles go up instead of down and with what force.
 						  
@@ -228,8 +228,8 @@ Player.prototype.step = function(dt) {
                           
 						  
 						// This line below states where the sprite loads with respect to the player  
-						  this.x + this.w/4 - Sprites.map.missile.w/4,
-                          this.y+100,
+						  this.x + 22,
+                          this.y+50,
 						  
 						  // The dy:400 below states the force is 400 going downwards of the missile
 						  
@@ -242,9 +242,7 @@ Player.prototype.step = function(dt) {
   }
   
   
-  
 
-	
   
   return true;
 }

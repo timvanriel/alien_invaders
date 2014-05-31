@@ -50,8 +50,11 @@ var spriteData = {
   }
 
   function startGame() {
-    var screen = new GameScreen("Defeat all invaders!","Press space",
+    var screen = new GameScreen("Protect the Earth!","Press space",
                                  function() {
+									 
+									 // This loads gameboard number 1 of 2
+									 
                                      Game.loadBoard(new GameBoard(1));
 									 
 									 // This plays the music for the game

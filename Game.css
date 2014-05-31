@@ -1,4 +1,4 @@
- #gameboard { z-index: 5; background: red;) }
+ #gameboard { z-index: 5; background: none;) }
       #game-wrapper { z-index: 4;
 	  margin:50px auto 0 auto; width: 1000px; }
 	  
@@ -62,8 +62,9 @@
 
 #earth {
 	
-	background-color: none;
-	border-top: 5px black solid;
+	background-image: url(images/Earth.png);
+	background-size:1000px 100px;
+	background-repeat:no-repeat;
 	height: 100px;
 	width: 100%;
 	position: absolute;
