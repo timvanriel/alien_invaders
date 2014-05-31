@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 var AlienFlock = function AlienFlock() {
   this.invulnrable = true;
   this.dx = 10; this.dy = 10;
@@ -40,6 +34,7 @@ var AlienFlock = function AlienFlock() {
         cnt++;
       } 
     });
+	
 
     if(cnt == 0) { this.die(); } 
 
@@ -70,7 +65,7 @@ Alien.prototype.die = function() {
   
   //this.flock.speed += 1;
   this.board.remove(this);
-
+  
   
 }
 
@@ -94,6 +89,17 @@ Alien.prototype.step = function(dt) {
     if(this.x < Sprites.map.alien1.w) this.flock.hit = 1;
 	
 	
+	
+     if(this.y > 550) { 
+     
+	 Game.callbacks['die']();
+    
+   }
+   
+
+	
+ 
+	
 	// This kills the player when they touch an alien
 	
 	
@@ -103,8 +109,6 @@ Alien.prototype.step = function(dt) {
     return true;
    }
    
-
-	
 	
 	//------------------------------------------
 	
@@ -120,7 +124,7 @@ Alien.prototype.fireSometimes = function() {
         this.board.addSprite('missile',this.x + this.w/2 - Sprites.map.missile.w/2,
                                       this.y + this.h, 
 									  
-									  //This is how fast the alien missiles shoot - Standard = 100.
+						//This is how fast the alien missiles shoot - Standard = 100.
 									  
                                      { dy: 175 });
       }

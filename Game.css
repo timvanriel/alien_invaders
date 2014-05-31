@@ -62,7 +62,8 @@
 
 #earth {
 	
-	background-color: #00F;
+	background-color: none;
+	border-top: 5px black solid;
 	height: 100px;
 	width: 100%;
 	position: absolute;
