@@ -60,11 +60,15 @@ var spriteData = {
     'missile': { sx: 0,  sy: 147.5, w: 5,  h: 8.5, cls: Missile },
 	
 	
-	
-	
-	
-	
   }
+  
+  
+  
+  
+var music = new Audio('media/music.ogg');
+
+
+
 
   function startGame() {
     var screen = new GameScreen("Protect the Earth!","Press space",
@@ -74,7 +78,7 @@ var spriteData = {
 									 // This loads gameboard number 1 of 2
 									 
                                      Game.loadBoard(new GameBoard(1));
-									 GameAudio.play('music');
+									 music.play();
 									 
 									 // This plays the music for the game
 									 
@@ -92,7 +96,7 @@ var spriteData = {
                                      Game.loadBoard(new GameBoard(1));
 									 
 									 // This resets the score counter to 0 when the game loads
-									 
+									 music.play();
 									 itemCounter = 0;
                                  });
     Game.loadBoard(screen);

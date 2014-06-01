@@ -149,7 +149,8 @@ Player.prototype.draw = function(canvas) {
 
 
 Player.prototype.die = function() {
-  GameAudio.play('player-die');
+  music.pause();
+  music.currentTime = 0.0;
   Game.callbacks['die']();
 
 }
