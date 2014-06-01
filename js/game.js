@@ -225,7 +225,7 @@ Player.prototype.step = function(dt) {
     
     // This is how many missiles can be fired before reloading
 
-  if(Game.keys['fire_up'] && this.reloading <= 0 && this.board.missiles < 10) {
+  if(Game.keys['fire'] && this.reloading <= 0 && this.board.missiles < 5) {
     GameAudio.play('fire');
     this.board.addSprite('missile',
                           this.x + 20,
@@ -249,22 +249,19 @@ Player.prototype.step = function(dt) {
   
   
   
-  if(Game.keys['fire_down'] && this.reloading <= 0 && this.board.missiles < 10) {
-    GameAudio.play('fire');
+  if(Game.keys['powershot'] && this.reloading <= 0 && this.board.missiles < 1000) {
+    
     this.board.addSprite('missile',
-                          
+                          this.x + 20,
+                          this.y - 20,
 						  
-						// This line below states where the sprite loads with respect to the player  
-						  this.x + 22,
-                          this.y+50,
+	// The dy: -100 (standard) below states how the missiles go up instead of down and with what force.
 						  
-						  // The dy:400 below states the force is 400 going downwards of the missile
-						  
-                          { dy: +400, player: true });
+                          { dy: -400, player: true });
 						  
 						  
     this.board.missiles++;
-    this.reloading = 10 ;
+    this.reloading = 1 ;
 	
   }
   
