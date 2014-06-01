@@ -66,6 +66,8 @@ var spriteData = {
   
   
 var music = new Audio('media/music.ogg');
+var die = new Audio('media/player_death.mp3');
+var sad = new Audio('media/sad_song.mp3');
 
 
 
@@ -82,7 +84,8 @@ var music = new Audio('media/music.ogg');
 									 
 									 // This plays the music for the game
 									 
-									 //GameAudio.play('music');
+									 
+									 
                                  });
 		 
     Game.loadBoard(screen);
@@ -97,6 +100,9 @@ var music = new Audio('media/music.ogg');
 									 
 									 // This resets the score counter to 0 when the game loads
 									 music.play();
+									 
+									 sad.pause();
+  									 sad.currentTime = 0.0;
 									 itemCounter = 0;
                                  });
     Game.loadBoard(screen);

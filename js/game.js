@@ -149,8 +149,20 @@ Player.prototype.draw = function(canvas) {
 
 
 Player.prototype.die = function() {
+  
+  // This plays the player_die sound when the player is killed
+  
+  die.play();
+  
+  // This ends the game music when the player dies
+  
   music.pause();
   music.currentTime = 0.0;
+  
+  // This plays the sad song when the player dies and the gameover screen loads
+  
+  sad.play();
+  
   Game.callbacks['die']();
 
 }
