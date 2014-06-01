@@ -191,7 +191,9 @@ Player.prototype.step = function(dt) {
  
 	// This bounds the player within the game
     
-  if(this.x < 0) this.x = 0;
+  
+  if(this.x > 875) this.x = 50;
+  if(this.x < 50) this.x = 875;
   if(this.y < 0) this.y = 0;
   if(this.y > 550) this.y = 550;
   if(this.x > Game.width-this.w) this.x = Game.width-this.w;
