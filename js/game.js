@@ -1,5 +1,13 @@
 
+
+// Score code
+
+var itemCounter = 0;
+
+
+
 var AlienFlock = function AlienFlock() {
+	
   this.invulnrable = true;
   this.dx = 10; this.dy = 10;
   this.hit = 1; this.las100tHit = 0;
@@ -46,8 +54,6 @@ var AlienFlock = function AlienFlock() {
 
 
 
-
-
 var Alien = function Alien(opts) {
   this.flock = opts['flock'];
   this.frame = 0;
@@ -65,9 +71,13 @@ Alien.prototype.die = function() {
   
   //this.flock.speed += 1;
   this.board.remove(this);
+  itemCounter ++;
+  
   
   
 }
+
+
 
 Alien.prototype.step = function(dt) {
   this.mx += dt * this.flock.dx;
@@ -90,23 +100,21 @@ Alien.prototype.step = function(dt) {
 	
 	// This kills the player when the aliens reach the bottom
 	
-     if(this.y > 550) { 
+     if(this.y > 550) {
      GameAudio.play('player-die');
 	 Game.callbacks['die']();
     
    }
    
 
-	
- 
-	
 	// This kills the player when they touch an alien
 	
 	
 	var player = this.board.collide(this);
     if(player)  { 
-    player .die();
+    player .die()
     return true;
+	
    }
    
 	
@@ -142,6 +150,7 @@ Player.prototype.draw = function(canvas) {
 Player.prototype.die = function() {
   GameAudio.play('player-die');
   Game.callbacks['die']();
+
 }
 
 
@@ -152,8 +161,6 @@ Player.prototype.step = function(dt) {
   
   GameAudio.play('move');
   this.x -= 200 * dt;
-  
-  
   }
   
   if(Game.keys['right']) { 
@@ -284,7 +291,7 @@ Missile.prototype.step = function(dt) {
      enemy.die();
      return false;
    }
-   return (this.y < 0 || this.y > Game.height) ? false : true;
+   return (this.y < 0 || this.y > Game.height) ? false : true; 
 }
 
 

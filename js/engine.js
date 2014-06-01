@@ -1,8 +1,11 @@
+
+
 var Game = new function() {                                                                  
   var KEY_CODES = { 37:'left', 39:'right', 38:'up', 40:'down', 32:'fire', 87 :'fire_up', 83:'fire_down'};
   this.keys = {};
 
   this.initialize = function(canvas_dom,level_data,sprite_data,callbacks) {
+	  
     this.canvas_elem = $(canvas_dom)[0];
     this.canvas = this.canvas_elem.getContext('2d');
     this.width = $(this.canvas_elem).attr('width');
@@ -15,21 +18,31 @@ var Game = new function() {
     $(window).keyup(function(event) {
       if(KEY_CODES[event.keyCode]) Game.keys[KEY_CODES[event.keyCode]] = false;
     });
+	
+	
 
     this.level_data = level_data;
     this.callbacks = callbacks;
     Sprites.load(sprite_data,this.callbacks['start']);
+	
+	
+	
   };
 
   this.loadBoard = function(board) { Game.board = board; };
 
-  this.loop = function() { 
+  this.loop = function() {
+
     Game.board.step(30/1000); 
     Game.board.render(Game.canvas);
+	
+	
 	
 	// This is how fast the game runs
 	
     setTimeout(Game.loop,20);
+	
+	
   };
 };
 
@@ -50,10 +63,10 @@ var Sprites = new function() {
   };
 }
 
-var GameScreen = function GameScreen(text,text2,callback) {
+var GameScreen = function GameScreen(text,text2,callback, score) {
   this.step = function(dt) {
     if(Game.keys['fire'] && callback) callback();
-  };
+	  };
 
   this.render = function(canvas) {
     canvas.clearRect(0,0,Game.width,Game.height);
@@ -70,11 +83,24 @@ var GameScreen = function GameScreen(text,text2,callback) {
 	canvas.font = "bold 20px arial";
     var measure2 = canvas.measureText(text2);
     canvas.fillText(text2,Game.width/2 - measure2.width/2,Game.height/2 + 40);
+	
+	
+	canvas.font = '68px Roboto';
+    canvas.fillStyle = "#FFF";
+	canvas.fillText(itemCounter, Game.width/7 - measure2.width/2,Game.height -700);
+	
+	
+	
   };
+  
 };
 
 var GameBoard = function GameBoard(level_number) {
   this.removed_objs = [];
+  
+  // This resets the counter to 0 whenever the game is played again
+  
+  itemCounter = 0;
   this.missiles = 0;
   this.level = level_number;
   var board = this;
@@ -89,6 +115,10 @@ var GameBoard = function GameBoard(level_number) {
     sprite.w = Sprites.map[name].w; 
     sprite.h = Sprites.map[name].h;
     return sprite;
+	
+	
+	
+	
   };
   
 
@@ -96,6 +126,9 @@ var GameBoard = function GameBoard(level_number) {
      for(var i=0,len=this.objects.length;i<len;i++) {
        func.call(this.objects[i]);
      }
+	 
+	 
+	 
   };
 
   this.detect = function(func) {
@@ -118,8 +151,9 @@ var GameBoard = function GameBoard(level_number) {
   };
 
   this.render = function(canvas) {
+	
     canvas.clearRect(0,0,Game.width,Game.height);
-    this.iterate(function() { this.draw(canvas); });
+    this.iterate(function() { this.draw(canvas);  }); 
   };
 
 
@@ -141,6 +175,8 @@ var GameBoard = function GameBoard(level_number) {
 // End collision Detection
 
   this.loadLevel = function(level) {
+	
+	  
     this.objects = [];
     this.player = this.addSprite('player', // Sprite
 	
@@ -164,6 +200,7 @@ var GameBoard = function GameBoard(level_number) {
         }
       }
     }
+	
   };
 
   this.nextLevel = function() { 
@@ -172,6 +209,20 @@ var GameBoard = function GameBoard(level_number) {
  
   this.loadLevel(Game.level_data[level_number]);
 };
+
+
+
+function scoreCounter () {
+	
+	canvas.font = '68px Roboto';
+    var measure = canvas.measureText(text);  
+    canvas.fillStyle = "#FFF";
+	canvas.fillText(itemCounter, Game.width/10 - measure2.width/2,Game.height -700);	
+	
+}
+
+
+
 
 var GameAudio = new function() {
   this.load_queue = [];
