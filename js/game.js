@@ -6,6 +6,8 @@ var itemCounter = 0;
 
 
 
+
+
 var AlienFlock = function AlienFlock() {
 	
   this.invulnrable = true;
@@ -73,8 +75,7 @@ Alien.prototype.die = function() {
   this.board.remove(this);
   itemCounter ++;
   
-  
-  
+ 
 }
 
 

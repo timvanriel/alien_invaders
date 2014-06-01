@@ -85,9 +85,9 @@ var GameScreen = function GameScreen(text,text2,callback, score) {
     canvas.fillText(text2,Game.width/2 - measure2.width/2,Game.height/2 + 40);
 	
 	
-	canvas.font = '68px Roboto';
+	canvas.font = '40px Roboto';
     canvas.fillStyle = "#FFF";
-	canvas.fillText(itemCounter, Game.width/7 - measure2.width/2,Game.height -700);
+	canvas.fillText("Score: " + itemCounter, Game.width/2-68,Game.height -250);
 	
 	
 	
@@ -99,8 +99,8 @@ var GameBoard = function GameBoard(level_number) {
   this.removed_objs = [];
   
   // This resets the counter to 0 whenever the game is played again
+
   
-  itemCounter = 0;
   this.missiles = 0;
   this.level = level_number;
   var board = this;
@@ -116,10 +116,10 @@ var GameBoard = function GameBoard(level_number) {
     sprite.h = Sprites.map[name].h;
     return sprite;
 	
-	
-	
-	
   };
+  
+  
+  
   
 
   this.iterate = function(func) {
