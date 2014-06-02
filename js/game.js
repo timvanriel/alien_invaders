@@ -224,18 +224,12 @@ Player.prototype.step = function(dt) {
   this.reloading--;
   
    
-   
-   
-   
-   
-   
-   
-   
+ 
     
-    // This is how many missiles can be fired before reloading
+    // This is how the bullets fire normally before rapid mode is enabled
 
   if(Game.keys['fire_up'] && this.reloading <= 0 && this.board.missiles < 10 && music.currentTime <=8.9) {
-    GameAudio.play('fire');
+    shoot.play();
     this.board.addSprite('missile',
                           this.x + 20,
                           this.y - 20,
@@ -249,10 +243,10 @@ Player.prototype.step = function(dt) {
     this.reloading = 20 ;
 	
 	
-
+	// This ends rapid the rapid fire after 3.0s
 	
   } else if  (Game.keys['fire_up'] && this.reloading <= 0 && this.board.missiles < 10 && music.currentTime >=12.1) {
-    GameAudio.play('fire');
+    shoot.play();
     this.board.addSprite('missile',
                           this.x + 20,
                           this.y - 20,
@@ -267,21 +261,42 @@ Player.prototype.step = function(dt) {
 	
   }
   
-  
+  // This adds the rapid fire announcement sound after 7.0s of playing
   
   if(music.currentTime >= 7.0 && music.currentTime<= 8.0) {
 		
 		rapid.play();
-		rapid.volume = 1;  
+		rapid.volume = 1; 
+		music.volume = 0.2; 
+	  	
+  }
+  
+  // This adds the siren sound while the rapid fire is enabled
+  
+   if(music.currentTime >= 9.0 && music.currentTime<= 12.0) {
+		
+		siren.play()
+		siren.volume = 0.7;
+		music.volume = 0.2;  
+	  	
+  }
+  
+  // This brings the music volume back up to 0.5 after the rapid fire mode
+  
+  if(music.currentTime >=12.1) {
+		
+		music.volume = 0.5;   
 	  
   }
+  
+  
   
   // This states how rapid fire enables between a certain time in the game
   
   
   
     if(Game.keys['fire_up']  && this.board.missiles < 100 && music.currentTime >= 9.0 && music.currentTime <= 12.0) {
-    GameAudio.play('fire');
+    GameAudio.play('rapidbullet');
     this.board.addSprite('missile',
                           
 						  

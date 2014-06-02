@@ -69,7 +69,9 @@ var music = new Audio('media/music.ogg');
 var die = new Audio('media/player_death.mp3');
 var sad = new Audio('media/sad_song.mp3');
 var rapid = new Audio('media/Rapid_mode_voice.ogg');
-  
+var siren = new Audio('media/siren.ogg');
+var shoot = new Audio('media/shoot.ogg');
+
 
 
 
@@ -124,7 +126,7 @@ var rapid = new Audio('media/Rapid_mode_voice.ogg');
   // This loads the sounds used within the game
 
   $(function() {
-    GameAudio.load({ 'fire' : 'media/fire.ogg', 'die' : 'media/explosion.ogg', 'move' : 'media/move.ogg', 'music' : 'media/music.ogg', 'player-die' : 'media/player_death.mp3',}, 
+    GameAudio.load({ 'fire' : 'media/fire.ogg', 'die' : 'media/explosion.ogg', 'move' : 'media/move.ogg', 'music' : 'media/music.ogg', 'player-die' : 'media/player_death.mp3', 'rapidbullet' : 'media/rapid_bullet.ogg',}, 
                    function() { 
                        Game.initialize("#gameboard", levelData, spriteData,
                                       { "start": startGame,
