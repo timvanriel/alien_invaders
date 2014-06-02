@@ -57,17 +57,20 @@ var spriteData = {
     'alien1': { sx: 0,  sy: 0,  w: 36, h: 20, cls: Alien, frames: 13},
     'alien2': { sx: 0,  sy: 20, w: 36, h: 20, cls: Alien, frames: 13},
     'player': { sx: 0,  sy: 58, w: 48, h: 55, cls: Player },
-    'missile': { sx: 0,  sy: 147.5, w: 5,  h: 8.5, cls: Missile },
+    'missile': { sx: 0,  sy: 148, w: 5,  h: 5, cls: Missile },
+	'missile2': { sx: 0,  sy: 153, w: 5,  h: 5, cls: Missile },
+	
 	
 	
   }
   
   
-  
-  
 var music = new Audio('media/music.ogg');
 var die = new Audio('media/player_death.mp3');
 var sad = new Audio('media/sad_song.mp3');
+var rapid = new Audio('media/Rapid_mode_voice.ogg');
+  
+
 
 
 
@@ -81,6 +84,7 @@ var sad = new Audio('media/sad_song.mp3');
 									 
                                      Game.loadBoard(new GameBoard(1));
 									 music.play();
+									 music.volume = .5;
 									 
 									 // This plays the music for the game
 									 
@@ -120,7 +124,7 @@ var sad = new Audio('media/sad_song.mp3');
   // This loads the sounds used within the game
 
   $(function() {
-    GameAudio.load({ 'fire' : 'media/fire.ogg', 'die' : 'media/explosion.ogg', 'move' : 'media/move.ogg', 'music' : 'media/music.ogg', 'player-die' : 'media/player_death.mp3'}, 
+    GameAudio.load({ 'fire' : 'media/fire.ogg', 'die' : 'media/explosion.ogg', 'move' : 'media/move.ogg', 'music' : 'media/music.ogg', 'player-die' : 'media/player_death.mp3',}, 
                    function() { 
                        Game.initialize("#gameboard", levelData, spriteData,
                                       { "start": startGame,
@@ -128,5 +132,4 @@ var sad = new Audio('media/sad_song.mp3');
                                         "win"  : winGame });
                    });
    });
-
 

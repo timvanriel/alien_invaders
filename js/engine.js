@@ -1,7 +1,5 @@
-
-
 var Game = new function() {                                                                  
-  var KEY_CODES = { 37:'left', 39:'right', 38:'up', 40:'down', 32:'fire', 16:'powershot'};
+  var KEY_CODES = { 37:'left', 39:'right', 38:'up', 40:'down', 32:'fire', 87 :'fire_up', 83:'rapid_fire'};
   this.keys = {};
 
   this.initialize = function(canvas_dom,level_data,sprite_data,callbacks) {
@@ -104,7 +102,7 @@ var GameBoard = function GameBoard(level_number) {
   this.missiles = 0;
   this.level = level_number;
   var board = this;
-
+ 
   this.add =    function(obj) { obj.board=this; this.objects.push(obj); return obj; };
   this.remove = function(obj) { this.removed_objs.push(obj); };
 
@@ -212,14 +210,7 @@ var GameBoard = function GameBoard(level_number) {
 
 
 
-function scoreCounter () {
-	
-	canvas.font = '68px Roboto';
-    var measure = canvas.measureText(text);  
-    canvas.fillStyle = "#FFF";
-	canvas.fillText(itemCounter, Game.width/10 - measure2.width/2,Game.height -700);	
-	
-}
+ 
 
 
 
@@ -271,4 +262,8 @@ var GameAudio = new function() {
     }
   };
 };
+
+
+
+
 

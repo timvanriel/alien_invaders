@@ -8,6 +8,8 @@ var itemCounter = 0;
 
 
 
+
+
 var AlienFlock = function AlienFlock() {
 	
   this.invulnrable = true;
@@ -173,13 +175,13 @@ Player.prototype.die = function() {
 Player.prototype.step = function(dt) {
   if(Game.keys['left']) { 
   
-  GameAudio.play('move');
+  
   this.x -= 200 * dt;
   }
   
   if(Game.keys['right']) { 
   
-  GameAudio.play('move');
+  
   this.x += 200 * dt;
  
   
@@ -191,7 +193,7 @@ Player.prototype.step = function(dt) {
 	
 	// The (-=) defines how you move upwards
 	
-	GameAudio.play('move');
+	
 	this.y -= 200 * dt;
 	
 	
@@ -201,7 +203,7 @@ Player.prototype.step = function(dt) {
 	 
     if(Game.keys['down']) { 
 	
-	GameAudio.play('move');
+	
 	this.y += 200 * dt; 
 	
 	
@@ -222,10 +224,17 @@ Player.prototype.step = function(dt) {
   this.reloading--;
   
    
+   
+   
+   
+   
+   
+   
+   
     
     // This is how many missiles can be fired before reloading
 
-  if(Game.keys['fire'] && this.reloading <= 0 && this.board.missiles < 5) {
+  if(Game.keys['fire_up'] && this.reloading <= 0 && this.board.missiles < 10 && music.currentTime <=8.9) {
     GameAudio.play('fire');
     this.board.addSprite('missile',
                           this.x + 20,
@@ -237,20 +246,13 @@ Player.prototype.step = function(dt) {
 						  
 						  
     this.board.missiles++;
-    this.reloading = 10 ;
+    this.reloading = 20 ;
 	
 	
 
 	
-  }
-  
-  
-  // This states how the rocket can now shoot from the bottom as well as the top
-  
-  
-  
-  if(Game.keys['powershot'] && this.reloading <= 0 && this.board.missiles < 1000) {
-    
+  } else if  (Game.keys['fire_up'] && this.reloading <= 0 && this.board.missiles < 10 && music.currentTime >=12.1) {
+    GameAudio.play('fire');
     this.board.addSprite('missile',
                           this.x + 20,
                           this.y - 20,
@@ -261,7 +263,42 @@ Player.prototype.step = function(dt) {
 						  
 						  
     this.board.missiles++;
-    this.reloading = 1 ;
+    this.reloading = 20 ;
+	
+  }
+  
+  
+  
+  if(music.currentTime >= 7.0 && music.currentTime<= 8.0) {
+		
+		rapid.play();
+		rapid.volume = 1;  
+	  
+  }
+  
+  // This states how rapid fire enables between a certain time in the game
+  
+  
+  
+    if(Game.keys['fire_up']  && this.board.missiles < 100 && music.currentTime >= 9.0 && music.currentTime <= 12.0) {
+    GameAudio.play('fire');
+    this.board.addSprite('missile',
+                          
+						  
+						  
+						  
+						// This line below states where the sprite loads with respect to the player  
+						  this.x + 20,
+                          this.y - 20,
+						  
+						  // The dy:400 below states the force is 400 going downwards of the missile
+						  
+                          { dy: -400, player: true });
+						  
+						  
+    this.board.missiles++;
+    this.reloading = 1;
+	
 	
   }
   
