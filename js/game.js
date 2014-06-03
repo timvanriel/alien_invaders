@@ -20,6 +20,17 @@ var AlienFlock = function AlienFlock() {
       Game.loadBoard(new GameBoard(Game.board.nextLevel())); 
     } else {
       Game.callbacks['win']();
+	  
+	  // This plays the win music when the player completes all the levels
+	  
+	  win.play();
+	  
+	  // This pauses the background music when the player wins to allow for the win music to be heard
+	  
+	  music.pause();
+  	  music.currentTime = 0.0;
+	  
+	
     }
   }
 
@@ -212,7 +223,7 @@ Player.prototype.step = function(dt) {
   
   if(this.x > 875) this.x = 50;
   if(this.x < 50) this.x = 875;
-  if(this.y < 0) this.y = 0;
+  if(this.y < 300) this.y = 300;
   if(this.y > 550) this.y = 550;
   if(this.x > Game.width-this.w) this.x = Game.width-this.w;
   

@@ -37,8 +37,6 @@
 		  
 	3:   [[0,0,0,0,0,0,0,0,0,0,0,0,0,0],
           [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-          [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-          [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
           [0,1,1,1,1,1,1,1,1,1,1,1,1,1],
           [0,1,2,2,2,1,1,2,1,2,2,2,2,1],
           [0,1,2,1,1,2,1,2,1,2,1,1,1,1],
@@ -77,6 +75,7 @@ var sad = new Audio('media/sad_song.mp3');
 var rapid = new Audio('media/Rapid_mode_voice.ogg');
 var siren = new Audio('media/siren.ogg');
 var shoot = new Audio('media/shoot.ogg');
+var win = new Audio('media/win_sound.mp3');
 
 
 
@@ -125,6 +124,10 @@ var shoot = new Audio('media/shoot.ogg');
     var screen = new GameScreen("You Win!","Press space to play again!",
                                  function() {
                                      Game.loadBoard(new GameBoard(1));
+									 
+									 // This resets the counter back to zero for the next game
+									 
+									 itemCounter = 0;
                                  });
     Game.loadBoard(screen);
   }
