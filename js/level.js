@@ -68,6 +68,8 @@ var spriteData = {
 	
   }
   
+  // These are the game sounds that can be called within the game
+  
   
 var music = new Audio('media/music.ogg');
 var die = new Audio('media/player_death.mp3');
@@ -79,7 +81,7 @@ var win = new Audio('media/win_sound.mp3');
 
 
 
-
+	// This is the function that runs at the beginning of the game
 
 
   function startGame() {
@@ -87,13 +89,19 @@ var win = new Audio('media/win_sound.mp3');
 	
                                  function() {
 									 
-									 // This loads gameboard number 1 of 2
+									 // This loads gameboard number 1 of 3
 									 
                                      Game.loadBoard(new GameBoard(1));
+									 
+									  // This plays the music for the game
+									 
 									 music.play();
+									 
+									 // This sets the volume for the music
+									 
 									 music.volume = .5;
 									 
-									 // This plays the music for the game
+									
 									 
 									 
 									  
@@ -111,6 +119,8 @@ var win = new Audio('media/win_sound.mp3');
 									 
 									 // This resets the score counter to 0 when the game loads
 									 music.play();
+									 
+									 
 									 
 									 sad.pause();
   									 sad.currentTime = 0.0;

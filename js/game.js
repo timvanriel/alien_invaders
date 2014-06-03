@@ -74,13 +74,24 @@ Alien.prototype.draw = function(canvas) {
   Sprites.draw(canvas,this.name,this.x,this.y,this.frame);
 }
 
+// This is the function for when an alien dies
+
 Alien.prototype.die = function() {
+	
+	// This plays the alien death sound when one dies
+	
   GameAudio.play('die');
   
   //Speed of enemies moving across and down after first is hit - Default is 1
-  
   //this.flock.speed += 1;
+  
+  
+  // This removes the alien once it has died
+  
   this.board.remove(this);
+  
+  // This adds 1 to the score counter when an alien is killed
+  
   itemCounter ++;
   
  
@@ -107,10 +118,16 @@ Alien.prototype.step = function(dt) {
     if(this.x > Game.width - Sprites.map.alien1.w * 2) this.flock.hit = -1;
     if(this.x < Sprites.map.alien1.w) this.flock.hit = 1;
 	
-	// This kills the player when the aliens reach the bottom
+	// This if statement kills the player when the aliens reach the bottom
 	
      if(this.y > 550) {
+		 
+		 // This plays the player-die sound when the alien touches Earch
+		 
      GameAudio.play('player-die');
+	 
+	 // This kills the player
+	 
 	 Game.callbacks['die']();
     
    }
@@ -179,11 +196,16 @@ Player.prototype.die = function() {
 // The 200 below is how fast you can move the player
 
 Player.prototype.step = function(dt) {
+  
+  // This moves the player left
+  
   if(Game.keys['left']) { 
   
   
   this.x -= 200 * dt;
   }
+  
+  // This moves the player right
   
   if(Game.keys['right']) { 
   
@@ -205,7 +227,7 @@ Player.prototype.step = function(dt) {
 	
 	 }
 	 
-	 
+	 // This moves the player downwards
 	 
     if(Game.keys['down']) { 
 	
@@ -218,7 +240,7 @@ Player.prototype.step = function(dt) {
 	
 
  
-	// This bounds the player within the game
+	// These parameters bound the player within the game
     
   
   if(this.x > 875) this.x = 50;
@@ -227,29 +249,7 @@ Player.prototype.step = function(dt) {
   if(this.y > 550) this.y = 550;
   if(this.x > Game.width-this.w) this.x = Game.width-this.w;
   
-  
 
- 
-  
-  	
-  // This kills the player after 3 seconds when they go into the Alien territory
-	
-	
-	//if (this.y <= 200) {
-	
-		//siren.play();
-	
-		//setTimeout(function () {
-	
-	//Game.loadBoard(new GameBoard(Game.board.nextLevel()));
-    
-  
-  
-	//}
-	
-	
-	
-	
 
   this.reloading--;
   
@@ -264,7 +264,7 @@ Player.prototype.step = function(dt) {
                           this.x + 20,
                           this.y - 20,
 						  
-	// The dy: -100 (standard) below states how the missiles go up instead of down and with what force.
+	// The dy: -100 (standard) below states how the missiles go up and with what force.
 						  
                           { dy: -400, player: true });
 						  
@@ -272,12 +272,9 @@ Player.prototype.step = function(dt) {
     this.board.missiles++;
     this.reloading = 20 ;
 	
-	
-	
-	
   }  
   
-  // This ends rapid the rapid fire after 1.5s
+  // This ends rapid the rapid fire after 1.5s and resumes normal fire
   
   if  (Game.keys['fire_up'] && this.reloading <= 0 && this.board.missiles < 10 && music.currentTime >=10.5) {
     shoot.play();
@@ -310,7 +307,7 @@ Player.prototype.step = function(dt) {
   
 
   
-  // This states how rapid fire enables between a certain time in the game
+  // This states how rapid fire enables between 9s and 10.5s in the game
   
 
     if(Game.keys['fire']  && this.board.missiles < 100 && music.currentTime >= 9.0 && music.currentTime <= 10.5) {
@@ -385,7 +382,7 @@ Player.prototype.step = function(dt) {
 	}
   
   
-  // This adds the siren sound while the rapid fire is enabled
+  // This adds the siren sound while the rapid fire is enabled between 42s and 45s
   
    if(music.currentTime >= 42.0 && music.currentTime<= 45) {
 		siren.play()
@@ -431,7 +428,7 @@ Missile.prototype.step = function(dt) {
    
    this.y += this.dy * dt;
    
-  //  ------------------------
+  //  This kills the alien when they collide with a missile
 
    var enemy = this.board.collide(this);
    if(enemy) { 
