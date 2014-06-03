@@ -69,23 +69,28 @@ var GameScreen = function GameScreen(text,text2,callback, score) {
   this.render = function(canvas) {
     canvas.clearRect(0,0,Game.width,Game.height);
 	
+	
+	
+	
+	
+	
 	// Font for the top title
 	
     canvas.font = '68px Roboto';
     var measure = canvas.measureText(text);  
     canvas.fillStyle = "#FFF";
-    canvas.fillText(text,Game.width/2 - measure.width/2,Game.height/2);
+    canvas.fillText(text,Game.width/2 - measure.width/2,Game.height/2-70);
     
 	// Font for the bottom title
 	
-	canvas.font = "20px Roboto";
+	canvas.font = "Italic 20px Roboto";
     var measure2 = canvas.measureText(text2);
-    canvas.fillText(text2,Game.width/2 - measure2.width/2,Game.height/2 + 40);
+    canvas.fillText(text2,Game.width/2 - measure2.width/2,Game.height/2 - 20);
 	
 	
-	canvas.font = '40px Roboto';
+	canvas.font = '30px Roboto';
     canvas.fillStyle = "#FFF";
-	canvas.fillText("Score: " + itemCounter, Game.width/2-68,Game.height -250);
+	canvas.fillText("Score: " + itemCounter, Game.width/2-45,Game.height -250);
 	
 	
 	
