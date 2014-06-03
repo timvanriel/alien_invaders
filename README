@@ -1,4 +1,79 @@
-A Simple HTML5 Game To-be used in a Tutorial
+             ___                           __   ___  __   __  |
+ /\  |    | |__  |\ |    | |\ | \  /  /\  |  \ |__  |__) /__` |
+/~~\ |___ | |___ | \|    | | \|  \/  /~~\ |__/ |___ |  \  __/ .  
+                                                                 
 
-Slides up at:
-http://www.slideshare.net/cykod/html5-game-development-introduction-5815787
+
+
+<——Game Instructions——>
+
+
+
+Arrow keys move the player around.
+
+       ____ 
+      ||^ ||
+      ||__||
+      |/__\|
+ ____  ____  ____ 
+||< ||||V ||||> ||
+||__||||__||||__||
+|/__\||/__\||/__\|
+
+
+W Key shoots a missile from the player.
+
+ ____ 
+||W ||
+||__||
+|/__\|
+
+
+Space bar shoots a missile when Rapid Fire is enabled.
+ _________ 
+|| Space ||
+||_______||
+|/_______\|
+
+
+
+<——Game Objectives——>
+
+—>Shoot missiles at the aliens to kill them.
+—>Don’t let the aliens hit you with their missiles.
+—>Kill all the aliens to win the level.
+—>Win all the levels to complete the game.
+
+
+<—Rapid Fire Mode—>
+
+Rapid mode is announced by a voice saying “Rapid Fire mode enabled”.
+This means you can switch to the SPACEBAR to shoot faster bullets.
+Rapid mode lasts either 1.5 or 3 seconds depending on the level you are on.
+Rapid mode runs out whether you use it or not so switch as soon as the announcement ends and the siren sounds.
+
+
+<——-Scoring———>
+
+Your score will be displayed after you die or win the game.
+
+
+<——Screen Resolution——>
+
+In order for this game to work properly and look good, I recommend the screen resolution to be a minimum of 1024px x 768px.
+
+
+
+
+    ______             _                   _ 
+   |  ____|           (_)                 | |
+   | |__     _ __      _    ___    _   _  | |
+   |  __|   | '_ \    | |  / _ \  | | | | | |
+   | |____  | | | |   | | | (_) | | |_| | |_|
+   |______| |_| |_|   | |  \___/   \__, | (_)
+                     _/ |           __/ |    
+                    |__/           |___/     
+
+
+
+
