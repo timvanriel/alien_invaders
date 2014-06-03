@@ -1,13 +1,8 @@
 
 
-// Score code
+// Score counter
 
 var itemCounter = 0;
-
-
-
-
-
 
 
 var AlienFlock = function AlienFlock() {
@@ -220,6 +215,30 @@ Player.prototype.step = function(dt) {
   if(this.y < 0) this.y = 0;
   if(this.y > 550) this.y = 550;
   if(this.x > Game.width-this.w) this.x = Game.width-this.w;
+  
+  
+
+ 
+  
+  	
+  // This kills the player after 3 seconds when they go into the Alien territory
+	
+	
+	if (this.y <= 200) {
+	
+		siren.play();
+	
+		//setTimeout(function () {
+	
+	Game.loadBoard(new GameBoard(Game.board.nextLevel()));
+    
+  
+  
+	}
+	
+	
+	
+	
 
   this.reloading--;
   
@@ -243,9 +262,9 @@ Player.prototype.step = function(dt) {
     this.reloading = 20 ;
 	
 	
-	// This ends rapid the rapid fire after 3.0s
+	// This ends rapid the rapid fire after 1.5s
 	
-  } else if  (Game.keys['fire_up'] && this.reloading <= 0 && this.board.missiles < 10 && music.currentTime >=12.1) {
+  } else if  (Game.keys['fire_up'] && this.reloading <= 0 && this.board.missiles < 10 && music.currentTime >=10.5) {
     shoot.play();
     this.board.addSprite('missile',
                           this.x + 20,
@@ -273,7 +292,7 @@ Player.prototype.step = function(dt) {
   
   // This adds the siren sound while the rapid fire is enabled
   
-   if(music.currentTime >= 9.0 && music.currentTime<= 12.0) {
+   if(music.currentTime >= 9.0 && music.currentTime<= 10.5) {
 		
 		siren.play()
 		siren.volume = 0.7;
@@ -283,7 +302,7 @@ Player.prototype.step = function(dt) {
   
   // This brings the music volume back up to 0.5 after the rapid fire mode
   
-  if(music.currentTime >=12.1) {
+  if(music.currentTime >=10.6) {
 		
 		music.volume = 0.5;   
 	  
@@ -295,7 +314,9 @@ Player.prototype.step = function(dt) {
   
   
   
-    if(Game.keys['fire_up']  && this.board.missiles < 100 && music.currentTime >= 9.0 && music.currentTime <= 12.0) {
+  
+  
+    if(Game.keys['fire_up']  && this.board.missiles < 100 && music.currentTime >= 9.0 && music.currentTime <= 10.5) {
     GameAudio.play('rapidbullet');
     this.board.addSprite('missile',
                           

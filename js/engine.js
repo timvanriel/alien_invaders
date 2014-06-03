@@ -78,7 +78,7 @@ var GameScreen = function GameScreen(text,text2,callback, score) {
     
 	// Font for the bottom title
 	
-	canvas.font = "bold 20px arial";
+	canvas.font = "20px Roboto";
     var measure2 = canvas.measureText(text2);
     canvas.fillText(text2,Game.width/2 - measure2.width/2,Game.height/2 + 40);
 	
