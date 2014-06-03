@@ -92,7 +92,7 @@ Alien.prototype.step = function(dt) {
 	
 	// This (% 4) is a modulus for the frames.
 	
-    this.frame = (this.frame+1) % 13;
+    this.frame = (this.frame+1) % 12;
     if(this.x > Game.width - Sprites.map.alien1.w * 2) this.flock.hit = -1;
     if(this.x < Sprites.map.alien1.w) this.flock.hit = 1;
 	
@@ -332,8 +332,6 @@ Player.prototype.step = function(dt) {
   
   
   
-  
-  
 
 
  // This adds the rapid fire announcement sound after 40.0s of playing
@@ -392,10 +390,6 @@ Player.prototype.step = function(dt) {
 		music.volume = 0.5;   
 	  
   }
-
-
-
-
 
 
   
