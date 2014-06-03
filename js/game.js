@@ -224,17 +224,17 @@ Player.prototype.step = function(dt) {
   // This kills the player after 3 seconds when they go into the Alien territory
 	
 	
-	if (this.y <= 200) {
+	//if (this.y <= 200) {
 	
-		siren.play();
+		//siren.play();
 	
 		//setTimeout(function () {
 	
-	Game.loadBoard(new GameBoard(Game.board.nextLevel()));
+	//Game.loadBoard(new GameBoard(Game.board.nextLevel()));
     
   
   
-	}
+	//}
 	
 	
 	
@@ -262,9 +262,13 @@ Player.prototype.step = function(dt) {
     this.reloading = 20 ;
 	
 	
-	// This ends rapid the rapid fire after 1.5s
 	
-  } else if  (Game.keys['fire_up'] && this.reloading <= 0 && this.board.missiles < 10 && music.currentTime >=10.5) {
+	
+  }  
+  
+  // This ends rapid the rapid fire after 1.5s
+  
+  if  (Game.keys['fire_up'] && this.reloading <= 0 && this.board.missiles < 10 && music.currentTime >=10.5) {
     shoot.play();
     this.board.addSprite('missile',
                           this.x + 20,
@@ -280,6 +284,9 @@ Player.prototype.step = function(dt) {
 	
   }
   
+  
+  
+  
   // This adds the rapid fire announcement sound after 7.0s of playing
   
   if(music.currentTime >= 7.0 && music.currentTime<= 8.0) {
@@ -290,17 +297,32 @@ Player.prototype.step = function(dt) {
 	  	
   }
   
+
+  
+  // This states how rapid fire enables between a certain time in the game
+  
+
+    if(Game.keys['fire']  && this.board.missiles < 100 && music.currentTime >= 9.0 && music.currentTime <= 10.5) {
+		
+		GameAudio.play('rapidbullet');
+		this.board.addSprite('missile',this.x + 20,this.y - 20,
+		{ dy: -400, player: true });
+		
+		this.board.missiles++;
+		this.reloading = 1;
+  }
+  
+  
   // This adds the siren sound while the rapid fire is enabled
   
    if(music.currentTime >= 9.0 && music.currentTime<= 10.5) {
-		
 		siren.play()
 		siren.volume = 0.7;
 		music.volume = 0.2;  
 	  	
   }
   
-  // This brings the music volume back up to 0.5 after the rapid fire mode
+   // This brings the music volume back up to 0.5 after the rapid fire mode
   
   if(music.currentTime >=10.6) {
 		
@@ -310,35 +332,71 @@ Player.prototype.step = function(dt) {
   
   
   
-  // This states how rapid fire enables between a certain time in the game
+  
+  
+
+
+ // This adds the rapid fire announcement sound after 40.0s of playing
+  
+  if(music.currentTime >= 40.0 && music.currentTime<= 41.0) {
+		
+		rapid.play();
+		rapid.volume = 1; 
+		music.volume = 0.2; 
+	  	
+  }
+
+
+ // This states how rapid fire enables between 42s & 45s
+  
+
+    if(Game.keys['fire']  && this.board.missiles < 100 && music.currentTime >= 42.0 && music.currentTime <= 45.0) {GameAudio.play('rapidbullet');this.board.addSprite('missile',this.x + 20,this.y - 20,{ dy: -400, player: true });this.board.missiles++;this.reloading = 1;
+  } 
   
   
   
+  // Resume back to normal fire after 3s
   
   
-    if(Game.keys['fire_up']  && this.board.missiles < 100 && music.currentTime >= 9.0 && music.currentTime <= 10.5) {
-    GameAudio.play('rapidbullet');
+  if (Game.keys['fire_up'] && this.reloading <= 0 && this.board.missiles < 10 && music.currentTime >=45.1) {
+    shoot.play();
     this.board.addSprite('missile',
-                          
-						  
-						  
-						  
-						// This line below states where the sprite loads with respect to the player  
-						  this.x + 20,
+                          this.x + 20,
                           this.y - 20,
 						  
-						  // The dy:400 below states the force is 400 going downwards of the missile
+	// The dy: -100 (standard) below states how the missiles go up instead of down and with what force.
 						  
                           { dy: -400, player: true });
 						  
 						  
     this.board.missiles++;
-    this.reloading = 1;
+    this.reloading = 20 ; 
 	
 	
+	}
+  
+  
+  // This adds the siren sound while the rapid fire is enabled
+  
+   if(music.currentTime >= 42.0 && music.currentTime<= 45) {
+		siren.play()
+		siren.volume = 0.7;
+		music.volume = 0.2;  
+	  	
   }
   
+   // This brings the music volume back up to 0.5 after the rapid fire mode
   
+  if(music.currentTime >=45.1) {
+		
+		music.volume = 0.5;   
+	  
+  }
+
+
+
+
+
 
   
   return true;
