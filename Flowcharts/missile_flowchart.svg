@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1430px" height="575px" viewBox="0 0 1430 575" enable-background="new 0 0 1430 575" xml:space="preserve">
+<g transform="translate(0,0)">
+	<g transform="translate(0,0) matrix(1,0,0,1,694,80)">
+		<g>
+			<g transform="translate(0,0) scale(1.32,0.99)">
+				<g>
+					<path fill="#067A67" d="M0,0h100l0,0v100l0,0H0l0,0V0L0,0z"/>
+					<g transform="scale(0.7575757575757576,1.0101010101010102)">
+						<path fill="none" d="M0,0h132l0,0v99l0,0H0l0,0V0L0,0z"/>
+						<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M0,0h132l0,0v99l0,0H0l0,0
+							V0L0,0z"/>
+					</g>
+				</g>
+				<g>
+					<g transform="scale(0.7575757575757576,1.0101010101010102)">
+						<path fill-opacity="0" d="M2.64,1.98v94.05h125.399V2.971H3.959L2.64,1.98z"/>
+						<path fill="none" stroke="#3C7626" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M2.64,1.98v4 M2.64,7.98v4
+							 M2.64,13.98v4 M2.64,19.98v4 M2.64,25.98v4 M2.64,31.98v4 M2.64,37.98v4 M2.64,43.98v4 M2.64,49.98v4 M2.64,55.98v4
+							 M2.64,61.98v4 M2.64,67.98v4 M2.64,73.98v4 M2.64,79.98v4 M2.64,85.98v4 M2.64,91.98v4 M4.59,96.03h4 M10.59,96.03h4
+							 M16.59,96.03h4 M22.59,96.03h4 M28.59,96.03h4 M34.59,96.03h4 M40.59,96.03h4 M46.59,96.03h4 M52.59,96.03h4 M58.59,96.03h4
+							 M64.59,96.03h4 M70.59,96.03h4 M76.59,96.03h4 M82.59,96.03h4 M88.59,96.03h4 M94.59,96.03h4 M100.59,96.03h4 M106.59,96.03
+							h4 M112.59,96.03h4 M118.59,96.03h4 M124.59,96.03h3.449v-0.55 M128.039,93.48v-4 M128.039,87.48v-4 M128.039,81.48v-4
+							 M128.039,75.48v-4 M128.039,69.48v-4 M128.039,63.48v-4 M128.039,57.48v-4 M128.039,51.48v-4 M128.039,45.48v-4
+							 M128.039,39.48v-4 M128.039,33.48v-4 M128.039,27.48v-4 M128.039,21.48v-4 M128.039,15.48v-4 M128.039,9.48v-4 M128.039,3.48
+							v-0.51h-3.489 M122.55,2.971h-4 M116.55,2.971h-4 M110.55,2.971h-4 M104.55,2.971h-4 M98.55,2.971h-4 M92.55,2.971h-4
+							 M86.55,2.971h-4 M80.55,2.971h-4 M74.55,2.971h-4 M68.55,2.971h-4 M62.55,2.971h-4 M56.55,2.971h-4 M50.55,2.971h-4
+							 M44.55,2.971h-4 M38.55,2.971h-4 M32.55,2.971h-4 M26.55,2.971h-4 M20.55,2.971h-4 M14.55,2.971h-4 M8.55,2.971h-4H8.55z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,696.64,80) translate(2,39.5)">
+		<text transform="matrix(1 0 0 1 5.8596 14.9999)" fill="#FFFFFF" font-family="'ArialMT'" font-size="18">Player Missile</text>
+	</g>
+	<g transform="translate(0,0) matrix(1,0,0,1,710,230)">
+		<g>
+			<g transform="translate(0,0) scale(1,0.75)">
+				<g>
+					<path fill="#00BB9C" d="M0,0h100l0,0v100l0,0H0l0,0V0L0,0z"/>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill="none" d="M0,0h100l0,0v75l0,0H0l0,0V0L0,0z"/>
+						<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M0,0h100l0,0v75l0,0H0l0,0
+							V0L0,0z"/>
+					</g>
+				</g>
+				<g>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill-opacity="0" d="M2,1.5v71.25h95V2.25H3L2,1.5z"/>
+						<path fill="none" stroke="#3C7626" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M2,1.5v4 M2,7.5v4 M2,13.5
+							v4 M2,19.5v4 M2,25.5v4 M2,31.5v4 M2,37.5v4 M2,43.5v4 M2,49.5v4 M2,55.5v4 M2,61.5v4 M2,67.5v4 M2.75,72.75h4 M8.75,72.75h4
+							 M14.75,72.75h4 M20.75,72.75h4 M26.75,72.75h4 M32.75,72.75h4 M38.75,72.75h4 M44.75,72.75h4 M50.75,72.75h4 M56.75,72.75h4
+							 M62.75,72.75h4 M68.75,72.75h4 M74.75,72.75h4 M80.75,72.75h4 M86.75,72.75h4 M92.75,72.75h4 M97,71v-4 M97,65v-4 M97,59v-4
+							 M97,53v-4 M97,47v-4 M97,41v-4 M97,35v-4 M97,29v-4 M97,23v-4 M97,17v-4 M97,11V7 M97,5V2.25h-1.25 M93.75,2.25h-4
+							 M87.75,2.25h-4 M81.75,2.25h-4 M75.75,2.25h-4 M69.75,2.25h-4 M63.75,2.25h-4 M57.75,2.25h-4 M51.75,2.25h-4 M45.75,2.25h-4
+							 M39.75,2.25h-4 M33.75,2.25h-4 M27.75,2.25h-4 M21.75,2.25h-4 M15.75,2.25h-4 M9.75,2.25h-4 M3.75,2.25H3H3.75z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,712,230) translate(2,23.5)">
+		<text transform="matrix(1 0 0 1 14.5001 10.9999)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">Move up at</text>
+		<text transform="matrix(1 0 0 1 0.4996 24.9999)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">dedicated speed</text>
+	</g>
+	<g transform="matrix(1,0,0,1,754.5,173.5)">
+		<g transform="translate(0,0)">
+			<g transform="translate(-762,-179) translate(7.5,5.5) matrix(1,0,0,1,0,0)">
+				<g>
+					<path fill="none" stroke="#067A67" stroke-width="4" stroke-miterlimit="10" d="M760,179v8.5c0,5.667,0,11.334,0,17l0,0
+						c0,5.667,0,11.334,0,17v8.5"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="translate(0,0) matrix(1,0,0,1,670,357.5)">
+		<g>
+			<g transform="translate(0,0) scale(1.8,0.75)">
+				<g>
+					<path fill="#00BB9C" d="M0,0h100l0,0v100l0,0H0l0,0V0L0,0z"/>
+					<g transform="scale(0.5555555555555556,1.3333333333333333)">
+						<path fill="none" d="M0.001,0h180l0,0v75l0,0h-180l0,0V0L0.001,0z"/>
+						<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M0.001,0h180l0,0v75l0,0
+							h-180l0,0V0L0.001,0z"/>
+					</g>
+				</g>
+				<g>
+					<g transform="scale(0.5555555555555556,1.3333333333333333)">
+						<path fill-opacity="0" d="M3.6,1.5v71.25h171V2.25H5.4L3.6,1.5z"/>
+						<path fill="none" stroke="#3C7626" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M3.6,1.5v4 M3.6,7.5v4
+							 M3.6,13.5v4 M3.6,19.5v4 M3.6,25.5v4 M3.6,31.5v4 M3.6,37.5v4 M3.6,43.5v4 M3.6,49.5v4 M3.6,55.5v4 M3.6,61.5v4 M3.6,67.5v4
+							 M4.35,72.75h4 M10.35,72.75h4 M16.35,72.75h4 M22.35,72.75h4 M28.35,72.75h4 M34.35,72.75h4 M40.35,72.75h4 M46.35,72.75h4
+							 M52.35,72.75h4 M58.35,72.75h4 M64.35,72.75h4 M70.35,72.75h4 M76.35,72.75h4 M82.35,72.75h4 M88.35,72.75h4 M94.35,72.75h4
+							 M100.35,72.75h4 M106.35,72.75h4 M112.35,72.75h4 M118.35,72.75h4 M124.35,72.75h4 M130.35,72.75h4 M136.35,72.75h4
+							 M142.35,72.75h4 M148.35,72.75h4 M154.35,72.75h4 M160.35,72.75h4 M166.35,72.75h4 M172.35,72.75h2.25V71 M174.6,69v-4
+							 M174.6,63v-4 M174.6,57v-4 M174.6,51v-4 M174.6,45v-4 M174.6,39v-4 M174.6,33v-4 M174.6,27v-4 M174.6,21v-4 M174.6,15v-4
+							 M174.6,9V5 M174.6,3V2.25h-3.25 M169.35,2.25h-4 M163.35,2.25h-4 M157.35,2.25h-4 M151.35,2.25h-4 M145.35,2.25h-4
+							 M139.35,2.25h-4 M133.35,2.25h-4 M127.35,2.25h-4 M121.35,2.25h-4 M115.35,2.25h-4 M109.35,2.25h-4 M103.35,2.25h-4
+							 M97.35,2.25h-4 M91.35,2.25h-4 M85.35,2.25h-4 M79.35,2.25h-4 M73.35,2.25h-4 M67.35,2.25h-4 M61.35,2.25h-4 M55.35,2.25h-4
+							 M49.35,2.25h-4 M43.35,2.25h-4 M37.35,2.25h-4 M31.35,2.25h-4 M25.35,2.25h-4 M19.35,2.25h-4 M13.35,2.25h-4 M7.35,2.25H5.4
+							H7.35z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,672,357.5) translate(2,30.5)">
+		<text transform="matrix(1 0 0 1 27.9995 11)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">Has missile hit alien?</text>
+	</g>
+	<g transform="matrix(1,0,0,1,754.5,299.5)">
+		<g transform="translate(0,0)">
+			<g transform="translate(-755,-297) translate(0.5,-2.5) matrix(1,0,0,1,0,0)">
+				<g>
+					<path fill="none" stroke="#067A67" stroke-width="4" stroke-miterlimit="10" d="M760,305v8.75c0,5.834,0,11.667,0,17.5l0,0
+						c0,5.834,0,11.667,0,17.5v8.75"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="translate(0,0) matrix(1,0,0,1,710,480)">
+		<g>
+			<g transform="translate(0,0) scale(1,0.75)">
+				<g>
+					<path fill="#00BB9C" d="M0,0h100l0,0v100l0,0H0l0,0V0L0,0z"/>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill="none" d="M0,0h100l0,0v75l0,0H0l0,0V0L0,0z"/>
+						<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M0,0h100l0,0v75l0,0H0l0,0
+							V0L0,0z"/>
+					</g>
+				</g>
+				<g>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill-opacity="0" d="M2,1.5v71.25h95V2.25H3L2,1.5z"/>
+						<path fill="none" stroke="#3C7626" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M2,1.5v4 M2,7.5v4 M2,13.5
+							v4 M2,19.5v4 M2,25.5v4 M2,31.5v4 M2,37.5v4 M2,43.5v4 M2,49.5v4 M2,55.5v4 M2,61.5v4 M2,67.5v4 M2.75,72.75h4 M8.75,72.75h4
+							 M14.75,72.75h4 M20.75,72.75h4 M26.75,72.75h4 M32.75,72.75h4 M38.75,72.75h4 M44.75,72.75h4 M50.75,72.75h4 M56.75,72.75h4
+							 M62.75,72.75h4 M68.75,72.75h4 M74.75,72.75h4 M80.75,72.75h4 M86.75,72.75h4 M92.75,72.75h4 M97,71v-4 M97,65v-4 M97,59v-4
+							 M97,53v-4 M97,47v-4 M97,41v-4 M97,35v-4 M97,29v-4 M97,23v-4 M97,17v-4 M97,11V7 M97,5V2.25h-1.25 M93.75,2.25h-4
+							 M87.75,2.25h-4 M81.75,2.25h-4 M75.75,2.25h-4 M69.75,2.25h-4 M63.75,2.25h-4 M57.75,2.25h-4 M51.75,2.25h-4 M45.75,2.25h-4
+							 M39.75,2.25h-4 M33.75,2.25h-4 M27.75,2.25h-4 M21.75,2.25h-4 M15.75,2.25h-4 M9.75,2.25h-4 M3.75,2.25H3H3.75z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,712,480) translate(2,30.5)">
+		<text transform="matrix(1 0 0 1 4.5 11)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">Destroy missile</text>
+	</g>
+	<g transform="matrix(1,0,0,1,554.5,359.5)">
+		<g transform="translate(0,0)">
+			<g transform="translate(-845,-394) translate(290.5,34.5) matrix(1,0,0,1,0,0)">
+				<g>
+					<path fill="none" stroke="#067A67" stroke-width="4" stroke-miterlimit="10" d="M670,395H570c-6.667,0-10-3.333-10-10v-20"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,845,394) translate(-237.50096147044826,-6)">
+		<g>
+			<rect x="-2.001" y="-3" fill="#FFFFFF" width="20" height="18"/>
+		</g>
+		<text transform="matrix(1 0 0 1 -4.882812e-04 11)" font-family="'ArialMT'" font-size="12">No</text>
+	</g>
+	<g transform="matrix(1,0,0,1,754.5,427)">
+		<g transform="translate(0,0)">
+			<g transform="translate(-762,-431) translate(7.5,4) matrix(1,0,0,1,0,0)">
+				<g>
+					<path fill="none" stroke="#067A67" stroke-width="4" stroke-miterlimit="10" d="M760,432.5v7.917c0,5.278,0,10.556,0,15.833
+						l0,0c0,5.278,0,10.556,0,15.834V480"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,762,431) translate(-12.5,17.5)">
+		<g>
+			<rect x="-2" y="-3" fill="#FFFFFF" width="25" height="18"/>
+		</g>
+		<text transform="matrix(1 0 0 1 0 11)" font-family="'ArialMT'" font-size="12">Yes</text>
+	</g>
+	<g transform="translate(0,0) matrix(1,0,0,1,934,80)">
+		<g>
+			<g transform="translate(0,0) scale(1.32,0.99)">
+				<g>
+					<path fill="#067A67" d="M0,0h100l0,0v100l0,0H0l0,0V0L0,0z"/>
+					<g transform="scale(0.7575757575757576,1.0101010101010102)">
+						<path fill="none" d="M0,0h132l0,0v99l0,0H0l0,0V0L0,0z"/>
+						<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M0,0h132l0,0v99l0,0H0l0,0
+							V0L0,0z"/>
+					</g>
+				</g>
+				<g>
+					<g transform="scale(0.7575757575757576,1.0101010101010102)">
+						<path fill-opacity="0" d="M2.64,1.981v94.05h125.399V2.971H3.959L2.64,1.981z"/>
+						<path fill="none" stroke="#3C7626" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M2.64,1.981v4 M2.64,7.981
+							v4 M2.64,13.981v4 M2.64,19.981v4 M2.64,25.981v4 M2.64,31.981v4 M2.64,37.981v4 M2.64,43.981v4 M2.64,49.981v4 M2.64,55.981
+							v4 M2.64,61.981v4 M2.64,67.981v4 M2.64,73.981v4 M2.64,79.981v4 M2.64,85.981v4 M2.64,91.981v4 M4.59,96.03h4 M10.59,96.03h4
+							 M16.59,96.03h4 M22.59,96.03h4 M28.59,96.03h4 M34.59,96.03h4 M40.59,96.03h4 M46.59,96.03h4 M52.59,96.03h4 M58.59,96.03h4
+							 M64.59,96.03h4 M70.59,96.03h4 M76.59,96.03h4 M82.59,96.03h4 M88.59,96.03h4 M94.59,96.03h4 M100.59,96.03h4 M106.59,96.03
+							h4 M112.59,96.03h4 M118.59,96.03h4 M124.59,96.03h3.449v-0.55 M128.039,93.481v-4 M128.039,87.481v-4 M128.039,81.481v-4
+							 M128.039,75.481v-4 M128.039,69.481v-4 M128.039,63.481v-4 M128.039,57.481v-4 M128.039,51.481v-4 M128.039,45.481v-4
+							 M128.039,39.481v-4 M128.039,33.481v-4 M128.039,27.481v-4 M128.039,21.481v-4 M128.039,15.481v-4 M128.039,9.481v-4
+							 M128.039,3.481v-0.51h-3.489 M122.55,2.971h-4 M116.55,2.971h-4 M110.55,2.971h-4 M104.55,2.971h-4 M98.55,2.971h-4
+							 M92.55,2.971h-4 M86.55,2.971h-4 M80.55,2.971h-4 M74.55,2.971h-4 M68.55,2.971h-4 M62.55,2.971h-4 M56.55,2.971h-4
+							 M50.55,2.971h-4 M44.55,2.971h-4 M38.55,2.971h-4 M32.55,2.971h-4 M26.55,2.971h-4 M20.55,2.971h-4 M14.55,2.971h-4
+							 M8.55,2.971h-4H8.55z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,936.64,80) translate(2,39.5)">
+		<text transform="matrix(1 0 0 1 11.3597 15.0001)" fill="#FFFFFF" font-family="'ArialMT'" font-size="18">Alien Missile</text>
+	</g>
+	<g transform="translate(0,0) matrix(1,0,0,1,950,230)">
+		<g>
+			<g transform="translate(0,0) scale(1,0.75)">
+				<g>
+					<path fill="#00BB9C" d="M0,0h100l0,0v100l0,0H0l0,0V0L0,0z"/>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill="none" d="M0,0h100l0,0v75l0,0H0l0,0V0L0,0z"/>
+						<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M0,0h100l0,0v75l0,0H0l0,0
+							V0L0,0z"/>
+					</g>
+				</g>
+				<g>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill-opacity="0" d="M2,1.5v71.25h95V2.25H3L2,1.5z"/>
+						<path fill="none" stroke="#3C7626" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M2,1.5v4 M2,7.5v4 M2,13.5
+							v4 M2,19.5v4 M2,25.5v4 M2,31.5v4 M2,37.5v4 M2,43.5v4 M2,49.5v4 M2,55.5v4 M2,61.5v4 M2,67.5v4 M2.75,72.75h4 M8.75,72.75h4
+							 M14.75,72.75h4 M20.75,72.75h4 M26.75,72.75h4 M32.75,72.75h4 M38.75,72.75h4 M44.75,72.75h4 M50.75,72.75h4 M56.75,72.75h4
+							 M62.75,72.75h4 M68.75,72.75h4 M74.75,72.75h4 M80.75,72.75h4 M86.75,72.75h4 M92.75,72.75h4 M97,71v-4 M97,65v-4 M97,59v-4
+							 M97,53v-4 M97,47v-4 M97,41v-4 M97,35v-4 M97,29v-4 M97,23v-4 M97,17v-4 M97,11V7 M97,5V2.25h-1.25 M93.75,2.25h-4
+							 M87.75,2.25h-4 M81.75,2.25h-4 M75.75,2.25h-4 M69.75,2.25h-4 M63.75,2.25h-4 M57.75,2.25h-4 M51.75,2.25h-4 M45.75,2.25h-4
+							 M39.75,2.25h-4 M33.75,2.25h-4 M27.75,2.25h-4 M21.75,2.25h-4 M15.75,2.25h-4 M9.75,2.25h-4 M3.75,2.25H3H3.75z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,952,230) translate(2,23.5)">
+		<text transform="matrix(1 0 0 1 6.4998 11.0001)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">Move down at</text>
+		<text transform="matrix(1 0 0 1 0.4998 25.0001)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">dedicated speed</text>
+	</g>
+	<g transform="matrix(1,0,0,1,994.5,173.5)">
+		<g transform="translate(0,0)">
+			<g transform="translate(-1002,-179) translate(7.5,5.5) matrix(1,0,0,1,0,0)">
+				<g>
+					<path fill="none" stroke="#067A67" stroke-width="4" stroke-miterlimit="10" d="M1000,179v8.5c0,5.667,0,11.334,0,17l0,0
+						c0,5.667,0,11.334,0,17v8.5"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="translate(0,0) matrix(1,0,0,1,910,357.5)">
+		<g>
+			<g transform="translate(0,0) scale(1.8,0.75)">
+				<g>
+					<path fill="#00BB9C" d="M0,0h100l0,0v100l0,0H0l0,0V0L0,0z"/>
+					<g transform="scale(0.5555555555555556,1.3333333333333333)">
+						<path fill="none" d="M0,0h180l0,0v75l0,0H0l0,0V0L0,0z"/>
+						<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M0,0h180l0,0v75l0,0H0l0,0
+							V0L0,0z"/>
+					</g>
+				</g>
+				<g>
+					<g transform="scale(0.5555555555555556,1.3333333333333333)">
+						<path fill-opacity="0" d="M3.6,1.5v71.25h171V2.25H5.4L3.6,1.5z"/>
+						<path fill="none" stroke="#3C7626" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M3.6,1.5v4 M3.6,7.5v4
+							 M3.6,13.5v4 M3.6,19.5v4 M3.6,25.5v4 M3.6,31.5v4 M3.6,37.5v4 M3.6,43.5v4 M3.6,49.5v4 M3.6,55.5v4 M3.6,61.5v4 M3.6,67.5v4
+							 M4.35,72.75h4 M10.35,72.75h4 M16.35,72.75h4 M22.35,72.75h4 M28.35,72.75h4 M34.35,72.75h4 M40.35,72.75h4 M46.35,72.75h4
+							 M52.35,72.75h4 M58.35,72.75h4 M64.35,72.75h4 M70.35,72.75h4 M76.35,72.75h4 M82.35,72.75h4 M88.35,72.75h4 M94.35,72.75h4
+							 M100.35,72.75h4 M106.35,72.75h4 M112.35,72.75h4 M118.35,72.75h4 M124.35,72.75h4 M130.35,72.75h4 M136.35,72.75h4
+							 M142.35,72.75h4 M148.35,72.75h4 M154.35,72.75h4 M160.35,72.75h4 M166.35,72.75h4 M172.35,72.75h2.25V71 M174.6,69v-4
+							 M174.6,63v-4 M174.6,57v-4 M174.6,51v-4 M174.6,45v-4 M174.6,39v-4 M174.6,33v-4 M174.6,27v-4 M174.6,21v-4 M174.6,15v-4
+							 M174.6,9V5 M174.6,3V2.25h-3.25 M169.35,2.25h-4 M163.35,2.25h-4 M157.35,2.25h-4 M151.35,2.25h-4 M145.35,2.25h-4
+							 M139.35,2.25h-4 M133.35,2.25h-4 M127.35,2.25h-4 M121.35,2.25h-4 M115.35,2.25h-4 M109.35,2.25h-4 M103.35,2.25h-4
+							 M97.35,2.25h-4 M91.35,2.25h-4 M85.35,2.25h-4 M79.35,2.25h-4 M73.35,2.25h-4 M67.35,2.25h-4 M61.35,2.25h-4 M55.35,2.25h-4
+							 M49.35,2.25h-4 M43.35,2.25h-4 M37.35,2.25h-4 M31.35,2.25h-4 M25.35,2.25h-4 M19.35,2.25h-4 M13.35,2.25h-4 M7.35,2.25H5.4
+							H7.35z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,912,357.5) translate(2,30.5)">
+		<text transform="matrix(1 0 0 1 24.4998 11.0002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">Has missile hit player?</text>
+	</g>
+	<g transform="matrix(1,0,0,1,994.5,299.5)">
+		<g transform="translate(0,0)">
+			<g transform="translate(-995,-297) translate(0.5,-2.5) matrix(1,0,0,1,0,0)">
+				<g>
+					<path fill="none" stroke="#067A67" stroke-width="4" stroke-miterlimit="10" d="M1000,305v8.75c0,5.834,0,11.667,0,17.5l0,0
+						c0,5.834,0,11.667,0,17.5v8.75"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="translate(0,0) matrix(1,0,0,1,1310,295)">
+		<g>
+			<g transform="translate(0,0) scale(1,0.75)">
+				<g>
+					<path fill="#00BB9C" d="M0,0h100l0,0v100l0,0H0l0,0V0L0,0z"/>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill="none" d="M0,0h100l0,0v75l0,0H0l0,0V0L0,0z"/>
+						<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M0,0h100l0,0v75l0,0H0l0,0
+							V0L0,0z"/>
+					</g>
+				</g>
+				<g>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill-opacity="0" d="M2,1.5v71.25h95V2.25H3L2,1.5z"/>
+						<path fill="none" stroke="#3C7626" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M2,1.5v4 M2,7.5v4 M2,13.5
+							v4 M2,19.5v4 M2,25.5v4 M2,31.5v4 M2,37.5v4 M2,43.5v4 M2,49.5v4 M2,55.5v4 M2,61.5v4 M2,67.5v4 M2.75,72.75h4 M8.75,72.75h4
+							 M14.75,72.75h4 M20.75,72.75h4 M26.75,72.75h4 M32.75,72.75h4 M38.75,72.75h4 M44.75,72.75h4 M50.75,72.75h4 M56.75,72.75h4
+							 M62.75,72.75h4 M68.75,72.75h4 M74.75,72.75h4 M80.75,72.75h4 M86.75,72.75h4 M92.75,72.75h4 M97,71v-4 M97,65v-4 M97,59v-4
+							 M97,53v-4 M97,47v-4 M97,41v-4 M97,35v-4 M97,29v-4 M97,23v-4 M97,17v-4 M97,11V7 M97,5V2.25h-1.25 M93.75,2.25h-4
+							 M87.75,2.25h-4 M81.75,2.25h-4 M75.75,2.25h-4 M69.75,2.25h-4 M63.75,2.25h-4 M57.75,2.25h-4 M51.75,2.25h-4 M45.75,2.25h-4
+							 M39.75,2.25h-4 M33.75,2.25h-4 M27.75,2.25h-4 M21.75,2.25h-4 M15.75,2.25h-4 M9.75,2.25h-4 M3.75,2.25H3H3.75z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,1312,295) translate(2,30.5)">
+		<text transform="matrix(1 0 0 1 4.4998 11.0002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">Destroy missile</text>
+	</g>
+	<g transform="translate(0,0) matrix(1,0,0,1,1150,295)">
+		<g>
+			<g transform="translate(0,0) scale(1,0.75)">
+				<g>
+					<path fill="#00BB9C" d="M0,0h100l0,0v100l0,0H0l0,0V0L0,0z"/>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill="none" d="M0,0h100l0,0v75l0,0H0l0,0V0L0,0z"/>
+						<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M0,0h100l0,0v75l0,0H0l0,0
+							V0L0,0z"/>
+					</g>
+				</g>
+				<g>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill-opacity="0" d="M2,1.5v71.25h95V2.25H3L2,1.5z"/>
+						<path fill="none" stroke="#3C7626" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M2,1.5v4 M2,7.5v4 M2,13.5
+							v4 M2,19.5v4 M2,25.5v4 M2,31.5v4 M2,37.5v4 M2,43.5v4 M2,49.5v4 M2,55.5v4 M2,61.5v4 M2,67.5v4 M2.75,72.75h4 M8.75,72.75h4
+							 M14.75,72.75h4 M20.75,72.75h4 M26.75,72.75h4 M32.75,72.75h4 M38.75,72.75h4 M44.75,72.75h4 M50.75,72.75h4 M56.75,72.75h4
+							 M62.75,72.75h4 M68.75,72.75h4 M74.75,72.75h4 M80.75,72.75h4 M86.75,72.75h4 M92.75,72.75h4 M97,71v-4 M97,65v-4 M97,59v-4
+							 M97,53v-4 M97,47v-4 M97,41v-4 M97,35v-4 M97,29v-4 M97,23v-4 M97,17v-4 M97,11V7 M97,5V2.25h-1.25 M93.75,2.25h-4
+							 M87.75,2.25h-4 M81.75,2.25h-4 M75.75,2.25h-4 M69.75,2.25h-4 M63.75,2.25h-4 M57.75,2.25h-4 M51.75,2.25h-4 M45.75,2.25h-4
+							 M39.75,2.25h-4 M33.75,2.25h-4 M27.75,2.25h-4 M21.75,2.25h-4 M15.75,2.25h-4 M9.75,2.25h-4 M3.75,2.25H3H3.75z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,1152,295) translate(2,16.5)">
+		<text transform="matrix(1 0 0 1 12.9998 11.0002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">Has missile</text>
+		<text transform="matrix(1 0 0 1 1.9998 25.0002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">reached bottom</text>
+		<text transform="matrix(1 0 0 1 16.4998 39.0002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">of canvas?</text>
+	</g>
+	<g transform="matrix(1,0,0,1,1084.5,364.5)">
+		<g transform="translate(0,0)">
+			<g transform="translate(-1088,-395) translate(3.5,30.5) matrix(1,0,0,1,0,0)">
+				<g>
+					<path fill="none" stroke="#067A67" stroke-width="4" stroke-miterlimit="10" d="M1090,395h100c6.666,0,10-3.333,10-10v-15"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,1088,395) translate(40,-7)">
+		<g>
+			<rect x="-2" y="-3" fill="#FFFFFF" width="20" height="18"/>
+		</g>
+		<text transform="matrix(1 0 0 1 -2.441406e-04 11.0002)" font-family="'ArialMT'" font-size="12">No</text>
+	</g>
+	<g transform="matrix(1,0,0,1,1044.5,246.46699141100893)">
+		<g transform="translate(0,0)">
+			<g transform="translate(-1200,-302) translate(155.5,55.533008588991066) matrix(1,0,0,1,0,0)">
+				<g>
+					<path fill="none" stroke="#067A67" stroke-width="4" stroke-miterlimit="10" d="M1200,295v-33.033c0-6.666-3.334-10-10-10h-140
+						"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,1200,302) translate(-8,-36)">
+		<g>
+			<rect x="-2" y="-3" fill="#FFFFFF" width="20" height="18"/>
+		</g>
+		<text transform="matrix(1 0 0 1 -2.441406e-04 11.0002)" font-family="'ArialMT'" font-size="12">No</text>
+	</g>
+	<g transform="translate(0,0) matrix(1,0,0,1,950,480)">
+		<g>
+			<g transform="translate(0,0) scale(1,0.75)">
+				<g>
+					<path fill="#00BB9C" d="M0,0h100l0,0v100l0,0H0l0,0V0L0,0z"/>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill="none" d="M0,0h100l0,0v75l0,0H0l0,0V0L0,0z"/>
+						<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M0,0h100l0,0v75l0,0H0l0,0
+							V0L0,0z"/>
+					</g>
+				</g>
+				<g>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill-opacity="0" d="M2,1.5v71.25h95V2.25H3L2,1.5z"/>
+						<path fill="none" stroke="#3C7626" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M2,1.5v4 M2,7.5v4 M2,13.5
+							v4 M2,19.5v4 M2,25.5v4 M2,31.5v4 M2,37.5v4 M2,43.5v4 M2,49.5v4 M2,55.5v4 M2,61.5v4 M2,67.5v4 M2.75,72.75h4 M8.75,72.75h4
+							 M14.75,72.75h4 M20.75,72.75h4 M26.75,72.75h4 M32.75,72.75h4 M38.75,72.75h4 M44.75,72.75h4 M50.75,72.75h4 M56.75,72.75h4
+							 M62.75,72.75h4 M68.75,72.75h4 M74.75,72.75h4 M80.75,72.75h4 M86.75,72.75h4 M92.75,72.75h4 M97,71v-4 M97,65v-4 M97,59v-4
+							 M97,53v-4 M97,47v-4 M97,41v-4 M97,35v-4 M97,29v-4 M97,23v-4 M97,17v-4 M97,11V7 M97,5V2.25h-1.25 M93.75,2.25h-4
+							 M87.75,2.25h-4 M81.75,2.25h-4 M75.75,2.25h-4 M69.75,2.25h-4 M63.75,2.25h-4 M57.75,2.25h-4 M51.75,2.25h-4 M45.75,2.25h-4
+							 M39.75,2.25h-4 M33.75,2.25h-4 M27.75,2.25h-4 M21.75,2.25h-4 M15.75,2.25h-4 M9.75,2.25h-4 M3.75,2.25H3H3.75z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,952,480) translate(2,23.5)">
+		<text transform="matrix(1 0 0 1 -2.441406e-04 11.0002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">Load game over</text>
+		<text transform="matrix(1 0 0 1 34.9998 25.0002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">title </text>
+	</g>
+	<g transform="matrix(1,0,0,1,1244.5,327)">
+		<g transform="translate(0,0)">
+			<g transform="translate(-1221,-332) translate(-23.5,5) matrix(1,0,0,1,0,0)">
+				<g>
+					<path fill="none" stroke="#067A67" stroke-width="4" stroke-miterlimit="10" d="M1250,332.5h10c6.666,0,13.333,0,20,0l0,0
+						c6.666,0,13.333,0,20,0h10"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,1221,332) translate(47.5,-6.5)">
+		<g>
+			<rect x="-2" y="-3" fill="#FFFFFF" width="25" height="18"/>
+		</g>
+		<text transform="matrix(1 0 0 1 -2.441406e-04 11.0002)" font-family="'ArialMT'" font-size="12">Yes</text>
+	</g>
+	<g transform="matrix(1,0,0,1,994.5,427)">
+		<g transform="translate(0,0)">
+			<g transform="translate(-999,-430) translate(4.5,3) matrix(1,0,0,1,0,0)">
+				<g>
+					<path fill="none" stroke="#067A67" stroke-width="4" stroke-miterlimit="10" d="M1000,432.5v7.917c0,5.278,0,10.556,0,15.833
+						l0,0c0,5.278,0,10.556,0,15.834V480"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="translate(0,0) matrix(1,0,0,1,1120,480)">
+		<g>
+			<g transform="translate(0,0) scale(1,0.75)">
+				<g>
+					<path fill="#00BB9C" d="M0,0h100l0,0v100l0,0H0l0,0V0L0,0z"/>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill="none" d="M0,0h100l0,0v75l0,0H0l0,0V0L0,0z"/>
+						<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M0,0h100l0,0v75l0,0H0l0,0
+							V0L0,0z"/>
+					</g>
+				</g>
+				<g>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill-opacity="0" d="M2,1.5v71.25h95V2.25H3L2,1.5z"/>
+						<path fill="none" stroke="#3C7626" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M2,1.5v4 M2,7.5v4 M2,13.5
+							v4 M2,19.5v4 M2,25.5v4 M2,31.5v4 M2,37.5v4 M2,43.5v4 M2,49.5v4 M2,55.5v4 M2,61.5v4 M2,67.5v4 M2.75,72.75h4 M8.75,72.75h4
+							 M14.75,72.75h4 M20.75,72.75h4 M26.75,72.75h4 M32.75,72.75h4 M38.75,72.75h4 M44.75,72.75h4 M50.75,72.75h4 M56.75,72.75h4
+							 M62.75,72.75h4 M68.75,72.75h4 M74.75,72.75h4 M80.75,72.75h4 M86.75,72.75h4 M92.75,72.75h4 M97,71v-4 M97,65v-4 M97,59v-4
+							 M97,53v-4 M97,47v-4 M97,41v-4 M97,35v-4 M97,29v-4 M97,23v-4 M97,17v-4 M97,11V7 M97,5V2.25h-1.25 M93.75,2.25h-4
+							 M87.75,2.25h-4 M81.75,2.25h-4 M75.75,2.25h-4 M69.75,2.25h-4 M63.75,2.25h-4 M57.75,2.25h-4 M51.75,2.25h-4 M45.75,2.25h-4
+							 M39.75,2.25h-4 M33.75,2.25h-4 M27.75,2.25h-4 M21.75,2.25h-4 M15.75,2.25h-4 M9.75,2.25h-4 M3.75,2.25H3H3.75z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,1122,480) translate(2,30.5)">
+		<text transform="matrix(1 0 0 1 8.9998 11.0002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">Display score</text>
+	</g>
+	<g transform="matrix(1,0,0,1,1044.5,512)">
+		<g transform="translate(0,0)">
+			<g transform="translate(-1048,-515) translate(3.5,3) matrix(1,0,0,1,0,0)">
+				<g>
+					<path fill="none" stroke="#067A67" stroke-width="4" stroke-miterlimit="10" d="M1050,517.5h13.333c6.667,0,13.333,0,20,0
+						h3.333c6.667,0,13.334,0,20,0H1120"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="translate(0,0) matrix(1,0,0,1,540,480)">
+		<g>
+			<g transform="translate(0,0) scale(1,0.75)">
+				<g>
+					<path fill="#00BB9C" d="M0,0h100l0,0v100l0,0H0l0,0V0L0,0z"/>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill="none" d="M0,0h100l0,0v75l0,0H0l0,0V0L0,0z"/>
+						<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M0,0h100l0,0v75l0,0H0l0,0
+							V0L0,0z"/>
+					</g>
+				</g>
+				<g>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill-opacity="0" d="M2,1.5v71.25h95V2.25H3L2,1.5z"/>
+						<path fill="none" stroke="#3C7626" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M2,1.5v4 M2,7.5v4 M2,13.5
+							v4 M2,19.5v4 M2,25.5v4 M2,31.5v4 M2,37.5v4 M2,43.5v4 M2,49.5v4 M2,55.5v4 M2,61.5v4 M2,67.5v4 M2.75,72.75h4 M8.75,72.75h4
+							 M14.75,72.75h4 M20.75,72.75h4 M26.75,72.75h4 M32.75,72.75h4 M38.75,72.75h4 M44.75,72.75h4 M50.75,72.75h4 M56.75,72.75h4
+							 M62.75,72.75h4 M68.75,72.75h4 M74.75,72.75h4 M80.75,72.75h4 M86.75,72.75h4 M92.75,72.75h4 M97,71v-4 M97,65v-4 M97,59v-4
+							 M97,53v-4 M97,47v-4 M97,41v-4 M97,35v-4 M97,29v-4 M97,23v-4 M97,17v-4 M97,11V7 M97,5V2.25h-1.25 M93.75,2.25h-4
+							 M87.75,2.25h-4 M81.75,2.25h-4 M75.75,2.25h-4 M69.75,2.25h-4 M63.75,2.25h-4 M57.75,2.25h-4 M51.75,2.25h-4 M45.75,2.25h-4
+							 M39.75,2.25h-4 M33.75,2.25h-4 M27.75,2.25h-4 M21.75,2.25h-4 M15.75,2.25h-4 M9.75,2.25h-4 M3.75,2.25H3H3.75z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,542,480) translate(2,30.5)">
+		<text transform="matrix(1 0 0 1 9.4993 11.0002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">Destroy Alien</text>
+	</g>
+	<g transform="translate(0,0) matrix(1,0,0,1,380,480)">
+		<g>
+			<g transform="translate(0,0) scale(1,0.75)">
+				<g>
+					<path fill="#00BB9C" d="M0,0h100l0,0v100l0,0H0l0,0V0L0,0z"/>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill="none" d="M0,0h100l0,0v75l0,0H0l0,0V0L0,0z"/>
+						<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M0,0h100l0,0v75l0,0H0l0,0
+							V0L0,0z"/>
+					</g>
+				</g>
+				<g>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill-opacity="0" d="M2,1.5v71.25h95V2.25H3L2,1.5z"/>
+						<path fill="none" stroke="#3C7626" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M2,1.5v4 M2,7.5v4 M2,13.5
+							v4 M2,19.5v4 M2,25.5v4 M2,31.5v4 M2,37.5v4 M2,43.5v4 M2,49.5v4 M2,55.5v4 M2,61.5v4 M2,67.5v4 M2.75,72.75h4 M8.75,72.75h4
+							 M14.75,72.75h4 M20.75,72.75h4 M26.75,72.75h4 M32.75,72.75h4 M38.75,72.75h4 M44.75,72.75h4 M50.75,72.75h4 M56.75,72.75h4
+							 M62.75,72.75h4 M68.75,72.75h4 M74.75,72.75h4 M80.75,72.75h4 M86.75,72.75h4 M92.75,72.75h4 M97,71v-4 M97,65v-4 M97,59v-4
+							 M97,53v-4 M97,47v-4 M97,41v-4 M97,35v-4 M97,29v-4 M97,23v-4 M97,17v-4 M97,11V7 M97,5V2.25h-1.25 M93.75,2.25h-4
+							 M87.75,2.25h-4 M81.75,2.25h-4 M75.75,2.25h-4 M69.75,2.25h-4 M63.75,2.25h-4 M57.75,2.25h-4 M51.75,2.25h-4 M45.75,2.25h-4
+							 M39.75,2.25h-4 M33.75,2.25h-4 M27.75,2.25h-4 M21.75,2.25h-4 M15.75,2.25h-4 M9.75,2.25h-4 M3.75,2.25H3H3.75z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,382,480) translate(2,23.5)">
+		<text transform="matrix(1 0 0 1 14.4993 11.0002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">+1 to score</text>
+		<text transform="matrix(1 0 0 1 25.4993 25.0002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">counter</text>
+	</g>
+	<g transform="matrix(1,0,0,1,634.5,512)">
+		<g transform="translate(0,0)">
+			<g transform="translate(-707,-519) translate(72.5,7) matrix(1,0,0,1,0,0)">
+				<g>
+					<path fill="none" stroke="#067A67" stroke-width="4" stroke-miterlimit="10" d="M710,517.5h-13.334c-6.666,0-13.333,0-20,0
+						h-3.333c-6.667,0-13.333,0-20,0H640"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="matrix(1,0,0,1,474.5,512)">
+		<g transform="translate(0,0)">
+			<g transform="translate(-543,-517) translate(68.5,5) matrix(1,0,0,1,0,0)">
+				<g>
+					<path fill="none" stroke="#067A67" stroke-width="4" stroke-miterlimit="10" d="M540,517.5h-10c-6.667,0-13.334,0-20,0l0,0
+						c-6.667,0-13.334,0-20,0h-10"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="translate(0,0) matrix(1,0,0,1,349,293.5)">
+		<g>
+			<g transform="translate(0,0) scale(1,0.75)">
+				<g>
+					<path fill="#00BB9C" d="M0,0h100l0,0v100l0,0H0l0,0V0L0,0z"/>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill="none" d="M0,0h100l0,0v75l0,0H0l0,0V0L0,0z"/>
+						<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M0,0h100l0,0v75l0,0H0l0,0
+							V0L0,0z"/>
+					</g>
+				</g>
+				<g>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill-opacity="0" d="M2,1.5v71.25h95V2.25H3L2,1.5z"/>
+						<path fill="none" stroke="#3C7626" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M2,1.5v4 M2,7.5v4 M2,13.5
+							v4 M2,19.5v4 M2,25.5v4 M2,31.5v4 M2,37.5v4 M2,43.5v4 M2,49.5v4 M2,55.5v4 M2,61.5v4 M2,67.5v4 M2.75,72.75h4 M8.75,72.75h4
+							 M14.75,72.75h4 M20.75,72.75h4 M26.75,72.75h4 M32.75,72.75h4 M38.75,72.75h4 M44.75,72.75h4 M50.75,72.75h4 M56.75,72.75h4
+							 M62.75,72.75h4 M68.75,72.75h4 M74.75,72.75h4 M80.75,72.75h4 M86.75,72.75h4 M92.75,72.75h4 M97,71v-4 M97,65v-4 M97,59v-4
+							 M97,53v-4 M97,47v-4 M97,41v-4 M97,35v-4 M97,29v-4 M97,23v-4 M97,17v-4 M97,11V7 M97,5V2.25h-1.25 M93.75,2.25h-4
+							 M87.75,2.25h-4 M81.75,2.25h-4 M75.75,2.25h-4 M69.75,2.25h-4 M63.75,2.25h-4 M57.75,2.25h-4 M51.75,2.25h-4 M45.75,2.25h-4
+							 M39.75,2.25h-4 M33.75,2.25h-4 M27.75,2.25h-4 M21.75,2.25h-4 M15.75,2.25h-4 M9.75,2.25h-4 M3.75,2.25H3H3.75z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,351,293.5) translate(2,30.5)">
+		<text transform="matrix(1 0 0 1 4.4993 11.0002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">Destroy missile</text>
+	</g>
+	<g transform="translate(0,0) matrix(1,0,0,1,510,290)">
+		<g>
+			<g transform="translate(0,0) scale(1,0.75)">
+				<g>
+					<path fill="#00BB9C" d="M0,0h100l0,0v100l0,0H0l0,0V0L0,0z"/>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill="none" d="M0,0h100l0,0v75l0,0H0l0,0V0L0,0z"/>
+						<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M0,0h100l0,0v75l0,0H0l0,0
+							V0L0,0z"/>
+					</g>
+				</g>
+				<g>
+					<g transform="scale(1,1.3333333333333333)">
+						<path fill-opacity="0" d="M2,1.5v71.25h95V2.25H3L2,1.5z"/>
+						<path fill="none" stroke="#3C7626" stroke-width="4" stroke-miterlimit="10" stroke-opacity="0" d="M2,1.5v4 M2,7.5v4 M2,13.5
+							v4 M2,19.5v4 M2,25.5v4 M2,31.5v4 M2,37.5v4 M2,43.5v4 M2,49.5v4 M2,55.5v4 M2,61.5v4 M2,67.5v4 M2.75,72.75h4 M8.75,72.75h4
+							 M14.75,72.75h4 M20.75,72.75h4 M26.75,72.75h4 M32.75,72.75h4 M38.75,72.75h4 M44.75,72.75h4 M50.75,72.75h4 M56.75,72.75h4
+							 M62.75,72.75h4 M68.75,72.75h4 M74.75,72.75h4 M80.75,72.75h4 M86.75,72.75h4 M92.75,72.75h4 M97,71v-4 M97,65v-4 M97,59v-4
+							 M97,53v-4 M97,47v-4 M97,41v-4 M97,35v-4 M97,29v-4 M97,23v-4 M97,17v-4 M97,11V7 M97,5V2.25h-1.25 M93.75,2.25h-4
+							 M87.75,2.25h-4 M81.75,2.25h-4 M75.75,2.25h-4 M69.75,2.25h-4 M63.75,2.25h-4 M57.75,2.25h-4 M51.75,2.25h-4 M45.75,2.25h-4
+							 M39.75,2.25h-4 M33.75,2.25h-4 M27.75,2.25h-4 M21.75,2.25h-4 M15.75,2.25h-4 M9.75,2.25h-4 M3.75,2.25H3H3.75z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,512,290) translate(2,16.5)">
+		<text transform="matrix(1 0 0 1 12.9993 11.0002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">Has missile</text>
+		<text transform="matrix(1 0 0 1 5.4993 25.0002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">reached top of</text>
+		<text transform="matrix(1 0 0 1 22.9993 39.0002)" fill="#FFFFFF" font-family="'ArialMT'" font-size="12">canvas?</text>
+	</g>
+	<g transform="matrix(1,0,0,1,443.39967266863465,322)">
+		<g transform="translate(0,0)">
+			<g transform="translate(-471,-267) translate(27.60032733136535,-55) matrix(1,0,0,1,0,0)">
+				<g>
+					<path fill="none" stroke="#067A67" stroke-width="4" stroke-miterlimit="10" d="M510,327.5h-10.367c-6.667,0-13.333,0-20,0
+						h-0.367c-6.666,0-13.333,0-20,0h-10.366"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,471,267) translate(-3.7713268148683596,53.49999999999994)">
+		<g>
+			<rect x="-2" y="-3" fill="#FFFFFF" width="25" height="18"/>
+		</g>
+		<text transform="matrix(1 0 0 1 -8.544922e-04 11.0002)" font-family="'ArialMT'" font-size="12">Yes</text>
+	</g>
+	<g transform="matrix(1,0,0,1,554.5,262)">
+		<g transform="translate(0,0)">
+			<g transform="translate(-548,-294) translate(-6.5,32) matrix(1,0,0,1,0,0)">
+				<g>
+					<path fill="none" stroke="#067A67" stroke-width="4" stroke-miterlimit="10" d="M560,290v-12.5c0-6.666,3.333-10,10-10h140"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="scale(1,1) matrix(1,0,0,1,548,294) translate(81.56088727361862,-33.5)">
+		<g>
+			<rect x="-2.001" y="-3" fill="#FFFFFF" width="20" height="18"/>
+		</g>
+		<text transform="matrix(1 0 0 1 -6.103516e-04 11.0002)" font-family="'ArialMT'" font-size="12">No</text>
+	</g>
+</g>
+</svg>
