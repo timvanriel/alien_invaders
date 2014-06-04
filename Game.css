@@ -11,9 +11,7 @@
 body {
 	
 	background-color: #000;
-	background-image: url('images/foreground.png');
-	-webkit-animation: animatedBackground 10s linear infinite;	
-    background-repeat: repeat;
+	
 	
 }
 
@@ -33,7 +31,10 @@ body {
  
 #gameboard { 
  
- z-index: 5; 
+ z-index: 5;
+ background-image: url('images/foreground.png');
+	-webkit-animation: animatedBackground 50s linear infinite;	
+    background-repeat: repeat; 
 
  
  
@@ -45,6 +46,7 @@ body {
 z-index: 4;
 margin: 0px auto 0 auto; 
 width: 1000px; 
+
 
 }
 	  
@@ -60,10 +62,15 @@ width: 1000px;
 	background-position: top;
 	width: 1000px;
 	height: 550px;
-	margin: -10px auto 0 auto;
+	margin: 10px auto 0 auto;
 	position: relative;
 	z-index: 3;
 	overflow: hidden;
+	border: 10px #ababab solid;
+
+-moz-box-shadow: inset 0px 0px 0px 5px #c7c7c7;
+-webkit-box-shadow: inset 0px 0px 0px 5px #c7c7c7;
+box-shadow: inset 0px 0px 0px 5px #c7c7c7;
 }
 
 #earth {
@@ -75,8 +82,22 @@ width: 1000px;
 	height: 550px;
 	width: 100%;
 	position: absolute;
-	bottom: 0;
+	bottom: 10px;
 	z-index: 1;
+	
+}
+
+#controls {
+	
+	color: #FFF;
+	font-family: 'Roboto';
+	width: 450px;
+	height: 150px;
+	background-image: url(images/Keys_layout.png);
+	background-size: 100%;
+	background-position: top;
+	background-repeat: none;	
+	margin: 0 auto;
 	
 }
 
