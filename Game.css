@@ -6,6 +6,12 @@
 	
 }
 
+@font-face {
+    font-family: 'Rapier';
+    src: url(fonts/Rapier.otf);
+	
+}
+
 
 
 body {
@@ -84,6 +90,7 @@ box-shadow: inset 0px 0px 0px 5px #c7c7c7;
 	position: absolute;
 	bottom: 10px;
 	z-index: 1;
+	
 	
 }
 
