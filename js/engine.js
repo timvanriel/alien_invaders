@@ -65,6 +65,14 @@ var GameScreen = function GameScreen(text,text2,callback, score) {
   this.step = function(dt) {
     if(Game.keys['fire'] && callback) callback();
 	  };
+	  
+	  
+	  // This stops the page scrolling down when the spacebar is pressed
+	  
+	  window.onkeydown = function(e) {
+		return !(e.keyCode == 32);  
+	  };
+	  
 
   this.render = function(canvas) {
     canvas.clearRect(0,0,Game.width,Game.height);
