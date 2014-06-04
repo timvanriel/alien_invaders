@@ -5,71 +5,52 @@
     src: url(fonts/Roboto.ttf);
 	
 }
+
+
+
+body {
+	
+	background-color: #000;
+	background-image: url('images/foreground.png');
+	-webkit-animation: animatedBackground 10s linear infinite;	
+    background-repeat: repeat;
+	
+}
+
+
+		
+        
+
+
+@-webkit-keyframes animatedBackground {
+
+        to { background-position-x:100%; }
+
+        }
+
+
  
  
 #gameboard { 
  
  z-index: 5; 
- background: none; 
+
+ 
+ 
  
  }
  
 #game-wrapper { 
 
 z-index: 4;
-margin: 50px auto 0 auto; 
+margin: 0px auto 0 auto; 
 width: 1000px; 
 
 }
 	  
-	  
-	  @-webkit-keyframes STAR-MOVE {
-	
-	from {
-		background-position: 100%
-	}
-	to { 
-		background-position: 1000% 1000% 
-	}
 
-	  }
-#background {
-	background: url(images/background.png) black  repeat 5% 5%;
-	position: absolute;
-	top: 0; left: 0; right: 0; bottom: 0;
-	z-index: 1;
-	
-	-webkit-animation-name: STAR-MOVE;
-	-webkit-animation-duration: 200s;
-	-webkit-animation-timing-function: linear;
-	-webkit-animation-iteration-count: infinite;
-}
 
-#midground {
-	background: url(images/midground.png) repeat 20% 20%;
-	position: absolute;
-	top: 0; left: 0; right: 0; bottom: 0;
-	z-index: 2;
-	
-	-webkit-animation-name: STAR-MOVE;
-	-webkit-animation-duration: 150s;
-	-webkit-animation-timing-function: linear;
-	-webkit-animation-iteration-count: infinite;
-}
 
-#foreground {
-	background: url(images/foreground.png) repeat 35% 35%;
-	position: absolute;
-	top: 0; left: 0; right: 0; bottom: 0;
-	z-index: 3;
-	
-	-webkit-animation-name: STAR-MOVE;
-	-webkit-animation-duration: 100s;
-	-webkit-animation-timing-function: linear;
-	-webkit-animation-iteration-count: infinite;
-	
-	
-}
 
 #page-wrap {
 	
@@ -78,10 +59,10 @@ width: 1000px;
 	background-repeat:no-repeat;
 	background-position: top;
 	width: 1000px;
-	height: 750px;
+	height: 550px;
 	margin: -10px auto 0 auto;
 	position: relative;
-	z-index: 300;
+	z-index: 3;
 	overflow: hidden;
 }
 
@@ -89,12 +70,13 @@ width: 1000px;
 	
 	background-image: url(images/Earth.png);
 	background-size:1000px 100px;
+	background-position: bottom;
 	background-repeat:no-repeat;
-	height: 100px;
+	height: 550px;
 	width: 100%;
 	position: absolute;
 	bottom: 0;
-	z-index: 100;	
+	z-index: 1;
 	
 }
 

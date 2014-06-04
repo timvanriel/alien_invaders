@@ -79,18 +79,20 @@ var GameScreen = function GameScreen(text,text2,callback, score) {
     canvas.font = '68px Roboto';
     var measure = canvas.measureText(text);  
     canvas.fillStyle = "#FFF";
-    canvas.fillText(text,Game.width/2 - measure.width/2,Game.height/2-70);
+    canvas.fillText(text,Game.width/2 - measure.width/2,Game.height/2);
     
 	// Font for the bottom title
 	
 	canvas.font = "Italic 20px Roboto";
     var measure2 = canvas.measureText(text2);
-    canvas.fillText(text2,Game.width/2 - measure2.width/2,Game.height/2 - 20);
+    canvas.fillText(text2,Game.width/2 - measure2.width/2,Game.height/2 + 40);
 	
+	
+	// Font for the score 
 	
 	canvas.font = '30px Roboto';
     canvas.fillStyle = "#FFF";
-	canvas.fillText("Score: " + itemCounter, Game.width/2-45,Game.height -250);
+	canvas.fillText("Score: " + itemCounter, Game.width/2-45,Game.height -75);
 	
 	
 	
@@ -186,7 +188,7 @@ var GameBoard = function GameBoard(level_number) {
 	// This is where the player sprite starts initially
 						
                                  Game.width/2, // X
-                                 Game.height - Sprites.map['player'].h - 200); // Y
+                                 Game.height - Sprites.map['player'].h - 20); // Y
 
     var flock = this.add(new AlienFlock());
     for(var y=0,rows=level.length;y<rows;y++) {

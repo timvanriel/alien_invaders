@@ -7,8 +7,6 @@
 
   var levelData = { 
      1:  [[0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-          [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-          [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
           [0,0,0,2,0,2,0,1,0,1,0,2,0,2,0],
           [0,0,1,0,1,0,1,0,1,0,1,0,1,0,1],
           [0,0,0,2,0,2,0,1,0,1,0,2,0,2,0],
@@ -145,7 +143,7 @@ var win = new Audio('media/win_sound.mp3');
   // This loads the sounds used within the game
 
   $(function() {
-    GameAudio.load({ 'fire' : 'media/fire.ogg', 'die' : 'media/explosion.ogg', 'move' : 'media/move.ogg', 'music' : 'media/music.ogg', 'player-die' : 'media/player_death.mp3', 'rapidbullet' : 'media/rapid_bullet.ogg',}, 
+    GameAudio.load({ 'fire' : 'media/fire.ogg', 'die' : 'media/explosion.ogg', 'music' : 'media/music.ogg', 'rapidbullet' : 'media/rapid_bullet.ogg',}, 
                    function() { 
                        Game.initialize("#gameboard", levelData, spriteData,
                                       { "start": startGame,
